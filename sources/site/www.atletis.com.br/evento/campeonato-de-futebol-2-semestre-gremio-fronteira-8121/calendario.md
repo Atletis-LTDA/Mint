@@ -1,0 +1,3 @@
+# Source: https://www.atletis.com.br/evento/campeonato-de-futebol-2-semestre-gremio-fronteira-8121/calendario
+
+BEGIN:VCALENDAR VERSION:2.0 PRODID:-//Sabre//Sabre VObject 4.5.1//EN CALSCALE:GREGORIAN BEGIN:VEVENT UID:sabre-vobject-5a412424-1b07-4794-b0cf-a90fb7898112 DTSTAMP:20260913T033635Z SUMMARY:Campeonato de Futebol 2º Semestre - Grêmio Fronteira LOCATION:Grêmio Fronteira\\, 2030\\, Avenida Quinze de Novembro\\, Centro\\, A raranguá\\, Santa Catarina\\, Região Sul\\, 88900-000\\, Brasil\\, Araranguá \\, Santa Catarina URL;VALUE=URI:/evento/campeonato-de-futebol-2-semestre-gremio-fronteira-812 1 DTSTART;TZID=America/Sao\_Paulo:20260824T200000 DTEND;TZID=America/Sao\_Paulo:20261121T200000 END:VEVENT END:VCALENDAR 1

@@ -1,0 +1,119 @@
+---
+title: "Create Discount Coupons for Your Sports Event"
+sidebarTitle: "Discount Coupons"
+description: "Learn how to create fixed-value, percentage, and complimentary coupons on Atletis to reward sponsors, influencers, and early registrants."
+---
+
+Discount coupons are one of the most flexible tools in your event marketing toolkit. On Atletis, you can create coupons that take a fixed amount off a purchase, apply a percentage reduction, or grant a completely free registration — all from the same **Cupons** section in your event dashboard. Each coupon gets its own code, validity window, and usage limit, giving you precise control over who benefits, when, and how many times.
+
+## Coupon types
+
+Atletis supports three distinct coupon types. Understanding the difference helps you choose the right one for each situation.
+
+<CardGroup cols={3}>
+  <Card title="Fixed Value (Valor Fixo)" icon="tag">
+    Deducts a specific amount (e.g. R$ 20) from the total cart value. The buyer knows exactly what they will pay, making it easy to communicate and understand.
+  </Card>
+  <Card title="Percentage (Percentual)" icon="percent">
+    Deducts a percentage between **5% and 50%** from the total cart value. The actual savings scale with the number of registrations in the cart.
+  </Card>
+  <Card title="Complimentary (Cortesia)" icon="gift">
+    Grants a **100% discount** on a single registration. The participant pays nothing. Use this for sponsors, press, staff, or partnership agreements.
+  </Card>
+</CardGroup>
+
+### Minimum cart value rule
+
+For **fixed-value** and **percentage** coupons, the cart total after applying the discount must be **at least R$ 20**. If a participant tries to apply a coupon that would bring the cart below R$ 20, the discount will not be applied. This floor prevents the two paid coupon types from accidentally zeroing out a purchase — that scenario is handled exclusively by the cortesia type.
+
+**Example — fixed value:**
+A participant adds three R$ 25 registrations (total R$ 75) and applies a R$ 20 fixed coupon.
+`(3 × R$25) − R$20 = R$55` ✅ Discount applies.
+
+**Example — percentage:**
+A participant adds two R$ 30 registrations (total R$ 60) and applies a 20% coupon.
+`R$60 − 20% = R$48` ✅ Discount applies.
+
+<Note>
+  A coupon that would reduce the cart to R$ 0 is not the same as a cortesia. If you want to give a fully free registration, create a **Cortesia** coupon — it has its own dedicated controls for exactly that purpose.
+</Note>
+
+### Cortesia: one registration per use
+
+<Note>
+  A complimentary (cortesia) coupon allows the participant to purchase **one registration per cart only**. If an athlete wants to use the same cortesia code for a second registration (for example, two different categories in the same event), they must complete two separate purchases. When you create a cortesia coupon, the platform automatically sets the quantity to **limited** — you must specify how many complimentary registrations you want to issue.
+</Note>
+
+## Step-by-step: creating a coupon
+
+<Steps>
+  <Step title="Log in and select your event">
+    Go to [app.atletis.com.br/meus-eventos](https://app.atletis.com.br/meus-eventos). Click on the event for which you want to create a coupon.
+  </Step>
+
+  <Step title="Open the Cupons section">
+    In the left-hand sidebar of the event management panel, click **Cupons**.
+  </Step>
+
+  <Step title="Click Criar cupom">
+    On the **Gerenciar Cupons** page, click the **Criar cupom** button to open the coupon creation form.
+  </Step>
+
+  <Step title="Fill in the coupon details">
+    Complete the following fields:
+
+    | Field | Description |
+    |-------|-------------|
+    | **Name** | An internal label for your reference — e.g. "Instagram influencer – May campaign" or "Sponsor VIP passes" |
+    | **Code** | The code participants will enter at checkout — e.g. `EARLYBIRD20` or `SPONSOR2025`. No special characters, accents, or spaces are allowed. |
+    | **Start date / time** | When the coupon becomes active |
+    | **End date / time** | When the coupon expires |
+    | **Quantity** | Choose **unlimited** or **limited**. If limited, enter the maximum number of times the code can be used. Cortesia defaults to limited. |
+    | **Discount type** | Select **Valor fixo**, **Percentual**, or **Cortesia** and enter the corresponding amount or percentage |
+  </Step>
+
+  <Step title="Save the coupon">
+    Click **Salvar Cupom**. The coupon is immediately active for the date range you configured.
+  </Step>
+
+  <Step title="Monitor usage">
+    Back on the **Gerenciar Cupons** page, you will see a list of all coupons for the event. For each coupon, Atletis displays:
+    - The coupon name and code
+    - The discount type and value
+    - How many times the code has been used so far
+    - The remaining quantity (if you set a limit)
+  </Step>
+</Steps>
+
+## Coupon code guidelines
+
+- Use only **letters and numbers** — no spaces, hyphens, accents (ã, é, ç), or special characters.
+- Make the code **descriptive and memorable** for the person receiving it — e.g. `MINHACORRIDA20` for a 20% coupon on a race called "Minha Corrida".
+- Avoid reusing the same code across different events to prevent confusion in your own records.
+
+## Use cases and ideas
+
+<CardGroup cols={2}>
+  <Card title="Early-bird registrations" icon="clock">
+    Create a percentage or fixed-value coupon with a short validity window (e.g. the first two weeks of sales) to reward participants who commit early — beyond what your standard Lote 1 price already offers.
+  </Card>
+  <Card title="Group or team purchases" icon="users">
+    Issue a coupon code for group purchases (e.g. buy 5+ registrations). Coupons apply to the entire cart, so the savings automatically scale with the number of registrations.
+  </Card>
+  <Card title="Social media influencers" icon="share-nodes">
+    Give each influencer a unique, trackable code (e.g. `JOAO10` for a 10% discount). The usage count in your coupon dashboard shows exactly how many sign-ups each influencer drove.
+  </Card>
+  <Card title="Sponsor and partner passes" icon="handshake">
+    Use cortesia coupons to fulfill complimentary-pass commitments in sponsorship contracts. Set a quantity equal to the number of passes agreed in the contract so you never over-issue.
+  </Card>
+  <Card title="Birthday month" icon="cake-candles">
+    Run a limited-time birthday campaign: share a coupon code on social media for athletes whose birthday falls in a given month. It builds loyalty and gives people a fun reason to tag friends.
+  </Card>
+  <Card title="Re-engagement" icon="rotate-right">
+    If someone added a registration to their cart but never completed the purchase, a short-lived coupon code shared via email can be the nudge they need to convert.
+  </Card>
+</CardGroup>
+
+<Tip>
+  You can create coupons at any time — even after the event is already published and selling. If registrations slow down mid-campaign, adding a time-limited coupon is a quick way to reignite interest without changing your lote prices.
+</Tip>

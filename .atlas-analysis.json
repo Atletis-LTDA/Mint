@@ -1,0 +1,105 @@
+{
+  "projectType": "saas",
+  "projectName": "Atletis",
+  "projectDescription": "Atletis is a complete sports event management platform that lets organizers create events, sell registrations, manage participants, and process payments — all in one place.",
+  "theme": "almond",
+  "primaryColor": "#ff6f00",
+  "lightColor": "#ffffff",
+  "darkColor": "#040404",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "For Organizers",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "pricing"
+            ]
+          },
+          {
+            "group": "Event Setup",
+            "pages": [
+              "organizers/create-event",
+              "organizers/event-page",
+              "organizers/categories",
+              "organizers/registration-form"
+            ]
+          },
+          {
+            "group": "Registrations & Sales",
+            "pages": [
+              "organizers/pricing-tiers",
+              "organizers/discount-coupons",
+              "organizers/payment-methods",
+              "organizers/managing-registrations"
+            ]
+          },
+          {
+            "group": "Event Day",
+            "pages": [
+              "organizers/check-in-app",
+              "organizers/participant-list",
+              "organizers/reports"
+            ]
+          },
+          {
+            "group": "Advanced Features",
+            "pages": [
+              "organizers/white-label",
+              "organizers/sports-agency",
+              "organizers/faq-organizers"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "For Athletes",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "athletes/finding-events",
+              "athletes/registration-process",
+              "athletes/payment-options"
+            ]
+          },
+          {
+            "group": "My Account",
+            "pages": [
+              "athletes/my-tickets",
+              "athletes/faq-athletes"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Event creation with exclusive public event page",
+    "Online registration and ticket sales (Pix, credit card, bank slip)",
+    "Multi-tier pricing with automatic batch (lote) transitions",
+    "Discount coupons (fixed value, percentage, complimentary)",
+    "Real-time sales dashboard and financial reporting",
+    "Mobile check-in app with QR code scanning",
+    "Custom registration forms with medical record support",
+    "White-label event pages for brand customization",
+    "Sports agency (assessoria) bulk purchase support",
+    "Automatic confirmation emails to participants",
+    "CPF-unique inscription control to prevent duplicates",
+    "Support for 20+ sports modalities"
+  ],
+  "publicApiSurface": [
+    "Event creation and configuration (app.atletis.com.br/evento/criar)",
+    "Registration page (atletis.com.br/evento/:slug)",
+    "Ticket purchasing flow with Pix, credit card, and boleto",
+    "Check-in mobile app",
+    "Organizer dashboard (app.atletis.com.br/meus-eventos)",
+    "Coupon management (Cupons section in organizer dashboard)",
+    "Batch pricing management (lote configuration)",
+    "Participant list export",
+    "Financial reports"
+  ]
+}

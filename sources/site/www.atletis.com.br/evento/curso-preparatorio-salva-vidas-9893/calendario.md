@@ -1,0 +1,3 @@
+# Source: https://www.atletis.com.br/evento/curso-preparatorio-salva-vidas-9893/calendario
+
+BEGIN:VCALENDAR VERSION:2.0 PRODID:-//Sabre//Sabre VObject 4.5.1//EN CALSCALE:GREGORIAN BEGIN:VEVENT UID:sabre-vobject-f57126a1-6ced-4513-96a7-b17e1fc3d24d DTSTAMP:20260913T033635Z SUMMARY:Treinamento preparatório - Prova para curso de salva vidas LOCATION:Grêmio Fronteira\\, 2030\\, Avenida Quinze de Novembro\\, Centro\\, A raranguá\\, Santa Catarina\\, Região Sul\\, 88900-000\\, Brasil\\, Araranguá \\, Santa Catarina URL;VALUE=URI:/evento/curso-preparatorio-salva-vidas-9893 DTSTART;TZID=America/Sao\_Paulo:20260810T120000 DTEND;TZID=America/Sao\_Paulo:20261110T120000 END:VEVENT END:VCALENDAR 1

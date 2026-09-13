@@ -1,0 +1,3 @@
+# Source: https://www.atletis.com.br/evento/1-festival-aquatico-de-avare-4748/calendario
+
+BEGIN:VCALENDAR VERSION:2.0 PRODID:-//Sabre//Sabre VObject 4.5.1//EN CALSCALE:GREGORIAN BEGIN:VEVENT UID:sabre-vobject-24324fe2-dbb1-4053-a516-2d461b8ebec8 DTSTAMP:20260913T033635Z SUMMARY:1º Festival Aquático de Avaré LOCATION:Avenida Marginal da Mata\\, Avaré\\, São Paulo URL;VALUE=URI:/evento/1-festival-aquatico-de-avare-4748 DTSTART;TZID=America/Sao\_Paulo:20260912T070000 DTEND;TZID=America/Sao\_Paulo:20260913T120000 END:VEVENT END:VCALENDAR 1

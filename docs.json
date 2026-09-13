@@ -1,72 +1,106 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mintlify Starter Kit",
-  "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
-  },
-  "favicon": "/favicon.svg",
-  "navigation": {
-    "pages": [
-      {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
-  },
+  "name": "Atletis",
+  "theme": "almond",
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "https://media.brand.dev/a5f7f5cb-0ca5-46c5-acc4-7f287a2d7841.svg",
+    "dark": "https://media.brand.dev/a5f7f5cb-0ca5-46c5-acc4-7f287a2d7841.svg"
+  },
+  "favicon": "https://media.brand.dev/208293d9-c0a0-475c-8d82-0676388ce804.png",
+  "colors": {
+    "primary": "#ff6f00",
+    "light": "#ffffff",
+    "dark": "#040404"
+  },
+  "font": {
+    "headings": {
+      "family": "Archivo"
+    },
+    "body": {
+      "family": "Archivo"
+    }
   },
   "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
+      "label": "Create Event",
+      "href": "https://app.atletis.com.br/evento/criar"
     }
   },
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "For Organizers",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "pricing"
+            ]
+          },
+          {
+            "group": "Event Setup",
+            "pages": [
+              "organizers/create-event",
+              "organizers/event-page",
+              "organizers/categories",
+              "organizers/registration-form"
+            ]
+          },
+          {
+            "group": "Registrations & Sales",
+            "pages": [
+              "organizers/pricing-tiers",
+              "organizers/discount-coupons",
+              "organizers/payment-methods",
+              "organizers/managing-registrations"
+            ]
+          },
+          {
+            "group": "Event Day",
+            "pages": [
+              "organizers/check-in-app",
+              "organizers/participant-list",
+              "organizers/reports"
+            ]
+          },
+          {
+            "group": "Advanced Features",
+            "pages": [
+              "organizers/white-label",
+              "organizers/sports-agency",
+              "organizers/faq-organizers"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "For Athletes",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "athletes/finding-events",
+              "athletes/registration-process",
+              "athletes/payment-options"
+            ]
+          },
+          {
+            "group": "My Account",
+            "pages": [
+              "athletes/my-tickets",
+              "athletes/faq-athletes"
+            ]
+          }
+        ]
+      }
     ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "instagram": "https://www.instagram.com/atletis.com.br/"
     }
   }
 }

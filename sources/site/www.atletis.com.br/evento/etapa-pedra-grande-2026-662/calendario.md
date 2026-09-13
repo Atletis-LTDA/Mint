@@ -1,0 +1,3 @@
+# Source: https://www.atletis.com.br/evento/etapa-pedra-grande-2026-662/calendario
+
+BEGIN:VCALENDAR VERSION:2.0 PRODID:-//Sabre//Sabre VObject 4.5.1//EN CALSCALE:GREGORIAN BEGIN:VEVENT UID:sabre-vobject-8a9b68f6-dab9-4365-b894-348a93a8a14a DTSTAMP:20260913T033635Z SUMMARY:ETAPA PEDRA GRANDE 2026 LOCATION:Mogi das Cruzes / São Paulo\\, Mogi das Cruzes\\, São Paulo URL;VALUE=URI:/evento/etapa-pedra-grande-2026-662 DTSTART;TZID=America/Sao\_Paulo:20260913T070000 DTEND;TZID=America/Sao\_Paulo:20260913T150000 END:VEVENT END:VCALENDAR 1

@@ -1,0 +1,3 @@
+# Source: https://www.atletis.com.br/evento/torneio-sicredi-de-voleibol-misto-da-semana-farropilha-7523/calendario
+
+BEGIN:VCALENDAR VERSION:2.0 PRODID:-//Sabre//Sabre VObject 4.5.1//EN CALSCALE:GREGORIAN BEGIN:VEVENT UID:sabre-vobject-8f48aab7-64df-4940-b5f5-525ab7d5038e DTSTAMP:20260913T033652Z SUMMARY:Torneio Sicredi de Voleibol Misto da Semana Farropilha LOCATION:Avenida Barriga Verde\\, Centro\\, Balneário Arroio do Silva\\, Sant a Catarina\\, Região Sul\\, 88914-000\\, Brasil\\, Balneário Arroio do Silva \\, Santa Catarina URL;VALUE=URI:/evento/torneio-sicredi-de-voleibol-misto-da-semana-farropilh a-7523 DTSTART;TZID=America/Sao\_Paulo:20260919T083000 DTEND;TZID=America/Sao\_Paulo:20260919T200000 END:VEVENT END:VCALENDAR 1

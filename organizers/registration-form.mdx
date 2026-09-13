@@ -1,0 +1,152 @@
+---
+title: "Build a Custom Registration Form for Your Event"
+sidebarTitle: "Registration Form"
+description: "Create personalized registration forms on Atletis to collect exactly the data you need — including medical information, kit sizes, team names, and more."
+---
+
+The registration form is where you collect the information you need from each participant — and only that information. Atletis lets you build a custom form for your event, combining standard identity fields with any custom fields specific to your sport, format, or operations. The form is completed by the athlete at the time of registration, immediately after they select their category and before they pay.
+
+Well-designed forms reduce friction for the athlete and give your team the data it needs to run check-in, distribute kits, assign start waves, and handle emergencies. A form that asks for too much creates drop-off; one that asks for too little creates gaps you'll scramble to fill on event day.
+
+---
+
+## Standard fields included in every form
+
+Every registration on Atletis automatically includes a set of core identity fields that are required for all participants:
+
+| Field | Notes |
+|---|---|
+| **Full name** | Used on the participant list, check-in, and results |
+| **CPF** (Brazilian tax ID) | Used for identity verification — see the CPF uniqueness note below |
+| **Date of birth** | Used to validate age-group category eligibility |
+| **Phone number** | Primary contact for operational communications |
+| **Email address** | Used for registration confirmation and pre-event updates |
+
+<Note>
+  **CPF uniqueness:** On paid-plan events, Atletis enforces one registration per CPF per event. This prevents duplicate registrations under the same identity document, ensuring your participant list accurately reflects unique individuals. Athletes who try to register a second time with the same CPF will be blocked.
+</Note>
+
+These standard fields are always present and cannot be removed. Your custom fields are added on top of them.
+
+---
+
+## Build your custom registration form
+
+<Steps>
+  <Step title="Open the Form section in your dashboard">
+    In your organizer dashboard, navigate to your event and open the **Registration Form** (Formulário) section. This is where you manage all fields beyond the standard identity data.
+  </Step>
+
+  <Step title="Review the standard fields">
+    The standard fields (name, CPF, date of birth, phone, email) are pre-populated and already active. Confirm they are all enabled — they are required and cannot be turned off.
+  </Step>
+
+  <Step title="Add custom fields">
+    Click **Add field** (Adicionar campo) to insert a new custom field. For each field, you configure:
+
+    - **Field label** — The question or label the athlete sees (e.g., "T-shirt size", "Team / training group name", "Emergency contact name and phone")
+    - **Field type** — Short text, long text, multiple choice (dropdown or radio buttons), checkbox, or file upload
+    - **Required or optional** — Whether the athlete must answer this field to complete registration
+
+    Add as many custom fields as your event genuinely needs. Common examples by event type:
+
+    <CardGroup cols={2}>
+      <Card title="Running & cycling events" icon="person-running">
+        - T-shirt size (kit)
+        - Training group or assessoria name
+        - Emergency contact name and phone
+        - Average pace or expected finish time (for wave assignment)
+      </Card>
+      <Card title="Team sports & tournaments" icon="trophy">
+        - Team name
+        - Club or federation affiliation
+        - Jersey number
+        - Coach or team manager name
+      </Card>
+      <Card title="Multi-sport & adventure" icon="mountain">
+        - Emergency contact name and phone
+        - Blood type
+        - Known medical conditions
+        - Whether the participant has completed this event before
+      </Card>
+      <Card title="All event types" icon="clipboard">
+        - How the athlete found out about the event (for marketing tracking)
+        - Consent for image use (photo/video authorization)
+        - Acceptance of event regulations
+        - Dietary restrictions or accessibility needs
+      </Card>
+    </CardGroup>
+  </Step>
+
+  <Step title="Mark fields as required or optional">
+    For each custom field, decide whether it is **required** (the athlete cannot submit the form without answering it) or **optional** (the athlete can skip it).
+
+    <Tip>
+      Keep the number of required fields to the minimum you genuinely need for operations. Every additional required field increases the chance an athlete abandons the registration. Mark a field as required only if a missing answer would create a real problem — a missing t-shirt size, for example, stops you from preparing kits; a missing "how did you hear about us?" answer does not.
+    </Tip>
+  </Step>
+
+  <Step title="Preview the form">
+    Use the preview feature to see exactly what your registration form looks like from the athlete's perspective. Check that every field label is clear and unambiguous. Submit a test registration with your own data to confirm the end-to-end flow works as expected.
+  </Step>
+
+  <Step title="Save and publish">
+    Save your form configuration. The form takes effect immediately for all new registrations. If your event is already live and you need to add a field, you can do so at any time — but note that athletes who registered before the change will not have answered the new field. Plan your form carefully before opening registrations to avoid this gap.
+  </Step>
+</Steps>
+
+---
+
+## Per-category forms (multiform)
+
+On paid-plan events, Atletis supports configuring **different forms for different categories** — a feature sometimes called multiform. This is useful when different groups of participants genuinely need to provide different information.
+
+For example:
+- Solo runners might need a t-shirt size and emergency contact; relay teams might need team member names and a team captain's phone number.
+- Elite athletes might need to provide their federation license number; age-group participants do not.
+- A children's category might require a parent or guardian name and signature authorization; adult categories do not.
+
+To use per-category forms, configure the base form for the event and then override specific fields for individual categories from the Category settings. Fields added to a category-specific form are shown only to athletes registering in that category.
+
+<Note>
+  Per-category forms are available on paid events. Free events (with no registration fee) use a single shared form for all categories.
+</Note>
+
+---
+
+## The integrated medical form (ficha médica)
+
+For large events or events involving significant physical exertion, Atletis offers an integrated **medical form** (ficha médica) option for organizations on the large-event plan. This form captures health-relevant information from each participant, including:
+
+- Pre-existing medical conditions
+- Current medications
+- Known allergies or dietary restrictions
+- Weight and height
+- Physical fitness attestation
+
+The medical form data is stored securely alongside the registration record and is accessible to your medical team on event day. It is separate from the general registration form and subject to additional data-handling considerations under Brazil's LGPD data-protection law.
+
+<Warning>
+  The integrated ficha médica is available on the large-event (Grandes Organizadores) plan. Contact the Atletis team to enable this feature for your organization.
+</Warning>
+
+---
+
+## How collected data is used
+
+The information gathered through your registration form flows directly into your event's operational tools:
+
+<CardGroup cols={2}>
+  <Card title="Participant list" icon="table">
+    All form responses are included in the exportable participant list. You can filter, sort, and export by any field — category, t-shirt size, team name, and more.
+  </Card>
+  <Card title="Check-in app" icon="mobile-screen">
+    The Atletis check-in app displays each participant's key details — name, CPF, category, and any critical fields — at the moment of validation on event day, so your staff can confirm identity and hand off kits in seconds.
+  </Card>
+  <Card title="Kit distribution" icon="shirt">
+    If you collected t-shirt sizes, team names, or other kit-related data, you can generate a sorted kit manifest directly from the participant list to guide your distribution team.
+  </Card>
+  <Card title="Communication" icon="envelope">
+    Registration data feeds into Atletis's athlete communication tools. You can send targeted messages to specific categories or groups — for example, a reminder about kit pickup only to participants in the 21 km category.
+  </Card>
+</CardGroup>

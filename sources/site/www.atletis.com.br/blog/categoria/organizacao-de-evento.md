@@ -1,0 +1,96 @@
+# Source: https://www.atletis.com.br/blog/categoria/organizacao-de-evento
+
+# Organização de Eventos
+
+64 posts publicados
+
+[![Um triatleta brasileiro, vestindo uniforme verde e azul com a inscrição ](https://cdn.atletis.com.br/atletis-website/base/c64/a98/29f/239-161-criar-evento-duatlo-inscricoes-online.jpg)](https://www.atletis.com.br/criar-evento-duatlo-inscricoes-online)
+
+Organização de Eventos
+
+[**Criar evento de duatlo com inscrições online: estrutura e categorias**\\ \\ O duatlo tem duas modalidades e transições em uma prova só. Veja como estruturar a inscrição para refletir isso antes de abrir as vagas.](https://www.atletis.com.br/criar-evento-duatlo-inscricoes-online)
+
+[![Ciclistas profissionais equipados com capacetes e óculos escuros pedalam em pelotão durante uma competição de ciclismo de estrada. Vestindo uniformes de diversas cores, os atletas avançam juntos pela rua logo abaixo do pórtico de largada do evento.](https://cdn.atletis.com.br/atletis-website/base/173/f0f/6bb/239-161-criar-evento-ciclismo-inscricoes-online.jpg)](https://www.atletis.com.br/criar-evento-ciclismo-inscricoes-online)
+
+Organização de Eventos
+
+[**Criar evento de ciclismo com inscrições online: categorias, dados e experiência**\\ \\ Vai organizar uma prova de bike? Veja o que definir antes de abrir inscrições para não errar categorias, percurso e dados da prova.](https://www.atletis.com.br/criar-evento-ciclismo-inscricoes-online)
+
+[![Mulher concentrada e com expressão preocupada olhando para a tela de um tablet enquanto organiza finanças ou estuda em uma mesa de madeira em casa.](https://cdn.atletis.com.br/atletis-website/base/807/485/680/239-161-checklist-criar-evento-esportivo.jpg)](https://www.atletis.com.br/checklist-criar-evento-esportivo)
+
+Organização de Eventos
+
+[**Checklist para criar evento esportivo: o que definir antes de abrir inscrições**\\ \\ Vai tirar uma prova do papel? Use este checklist para organizar as principais decisões antes de publicar seu evento e abrir inscrições.](https://www.atletis.com.br/checklist-criar-evento-esportivo)
+
+[![Dezenas de corredores de maratona avançam juntos por uma avenida litorânea no início de uma prova, passando sob um grande pórtico metálico com a marca ](https://cdn.atletis.com.br/atletis-website/base/ac0/b23/6e3/239-161-criar-evento-corrida-inscricoes-online.jpg)](https://www.atletis.com.br/criar-evento-corrida-inscricoes-online)
+
+Organização de Eventos
+
+[**Criar evento de corrida com inscrições online: checklist para organizadores**\\ \\ Antes de publicar sua corrida e receber atletas, organize página, categorias, lotes, dados, kit e operação de check-in com este checklist.](https://www.atletis.com.br/criar-evento-corrida-inscricoes-online)
+
+[![ Duas mulheres correndo ao ar livre em um calçadão próximo à água. A mulher em destaque sorri, veste uma camiseta laranja e usa grandes fones de ouvido vermelhos.](https://img.atletis.com.br/239x161/atletis-website/base/8ce/a55/9c4/mercado-eventos-esportivos.jpg)](https://www.atletis.com.br/mercado-eventos-esportivos)
+
+Organização de Eventos
+
+[**Mercado de eventos esportivos: como está + tendências**\\ \\ Tenha um panorama geral do mercado de eventos esportivos em 2026, das mudanças às tendências, através da leitura deste artigo!](https://www.atletis.com.br/mercado-eventos-esportivos)
+
+[![Homem jovem e sorridente com barba, usando camiseta cinza e fones de ouvido brancos, corre sobre uma ponte metálica em um dia ensolarado. Ele olha para a câmera e faz um sinal de positivo com o polegar. O fundo mostra a estrutura da ponte e o céu azul.](https://cdn.atletis.com.br/atletis-website/base/f02/208/a05/239-161-beneficios-organizar-evento-esportivo.jpg)](https://www.atletis.com.br/beneficios-organizar-evento-esportivo)
+
+Organização de Eventos
+
+[**Vale a pena organizar evento esportivo? Veja benefícios**\\ \\ Descubra aqui: os benefícios reais da organização de eventos esportivos, os desafios escondidos e como combatê-los e garantir sucesso.](https://www.atletis.com.br/beneficios-organizar-evento-esportivo)
+
+[![Gestão de evento esportivo sem planilhas! Veja como fazer](https://cdn.atletis.com.br/atletis-website/base/320/211/1cf/239-161-gestao-de-eventos-esportivos.jpg)](https://www.atletis.com.br/gestao-de-eventos-esportivos)
+
+Organização de Eventos
+
+[**Gestão de evento esportivo sem planilhas! Veja como fazer**\\ \\ Saiba como fazer a gestão dos seus próximos eventos esportivos economizando tempo e dinheiro e agregando estrelas à reputação da sua marca. Conte com](https://www.atletis.com.br/gestao-de-eventos-esportivos)
+
+[![Uma corredora sorridente celebra com os braços erguidos sob uma chuva de confetes coloridos durante um evento esportivo de Carnaval. Ela veste uma regata esportiva azul, faixa rosa na cabeça e um número de peito, transmitindo uma sensação de alegria e vitória.](https://cdn.atletis.com.br/atletis-website/base/10f/f0b/5e8/239-161-organizar-evento-esportivo-no-carnaval.jpg)](https://www.atletis.com.br/organizar-evento-esportivo-no-carnaval)
+
+Organização de Eventos
+
+[**Vale a pena organizar evento esportivo no Carnaval? Saiba!**\\ \\ Entenda quando o Carnaval favorece eventos esportivos, quais cuidados são essenciais e como transformar o feriado em oportunidade.](https://www.atletis.com.br/organizar-evento-esportivo-no-carnaval)
+
+[![Imagem promovendo corrida pela vida com uma mulher atleta, detalhes de evento e opções de compra de ingressos e pagamento online.](https://cdn.atletis.com.br/atletis-website/base/956/685/427/239-161-custo-criar-eventos-esportivos.png)](https://www.atletis.com.br/custo-criar-eventos-esportivos)
+
+Organização de Eventos
+
+[**Quanto custa criar um evento esportivo online? Descubra aqui**\\ \\ Este artigo mostra as diferenças entre criar evento esportivo online pela plataforma da Atletis, traz valores para você conhecer e esclarece dúvidas.](https://www.atletis.com.br/custo-criar-eventos-esportivos)
+
+[![Jovem mulher sorridente usando blusa preta e segurando um tablet em ambiente ao ar livre, com vegetação e edifícios ao fundo.](https://cdn.atletis.com.br/atletis-website/base/060/afc/8a5/239-161-por-que-usar-plataforma-white-label-eventos-esportivos.jpg)](https://www.atletis.com.br/por-que-usar-plataforma-white-label-eventos-esportivos)
+
+Organização de Eventos
+
+[**Plataforma white label para evento esportivo: por que usar**\\ \\ Entenda o que é plataforma ou site white label e por que cada vez mais organizadores de eventos esportivos optam por usar a solução. Experimente a Atl...](https://www.atletis.com.br/por-que-usar-plataforma-white-label-eventos-esportivos)
+
+Página 1 de 7
+
+- 
+- [1](https://www.atletis.com.br/blog/categoria/organizacao-de-evento/1)
+- [2](https://www.atletis.com.br/blog/categoria/organizacao-de-evento/2)
+- [3](https://www.atletis.com.br/blog/categoria/organizacao-de-evento/3)
+- [4](https://www.atletis.com.br/blog/categoria/organizacao-de-evento/4)
+- [5](https://www.atletis.com.br/blog/categoria/organizacao-de-evento/5)
+- [6](https://www.atletis.com.br/blog/categoria/organizacao-de-evento/6)
+- [7](https://www.atletis.com.br/blog/categoria/organizacao-de-evento/7)
+- 
+
+![](https://www.atletis.com.br/blog-asset/images/box.png)
+
+Super Box Atletis
+
+### Organiza eventos esportivos? 
+Esse Box é para você!
+
+Baixe grátis agora nossos materiais editáveis para o seu evento esportivo
+
+Sua experiência com eventos Iniciante - começando por conta própria Moderada - quero atrair mais participantes Avançada - presto serviço de organização Nunca organizei - quero começar
+
+BAIXAR GRÁTIS!
+
+### Material enviado com sucesso!
+
+Em alguns instantes você vai receber os materiais na caixa de entrada do seu e-mail. Caso não receba, lembre-se de conferir o SPAM ou Lixo eletrônico.
+
+![](https://www.atletis.com.br/wa-px-ck?t=1789270594.2506)

@@ -1,0 +1,3 @@
+# Source: https://www.atletis.com.br/evento/tiro-esportivo-para-todos-7034/calendario
+
+BEGIN:VCALENDAR VERSION:2.0 PRODID:-//Sabre//Sabre VObject 4.5.1//EN CALSCALE:GREGORIAN BEGIN:VEVENT UID:sabre-vobject-7f28a16b-c4c7-43cf-a1e3-90cb1daefd4d DTSTAMP:20260913T033635Z SUMMARY:Tiro Esportivo para Todos LOCATION:Impacto Air Gun\\, Belo Horizonte\\, Minas Gerais URL;VALUE=URI:/evento/tiro-esportivo-para-todos-7034 DTSTART;TZID=America/Sao\_Paulo:20260601T090000 DTEND;TZID=America/Sao\_Paulo:20261127T120000 END:VEVENT END:VCALENDAR 1
