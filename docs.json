@@ -23,17 +23,17 @@
   "navbar": {
     "primary": {
       "type": "button",
-      "label": "Create Event",
+      "label": "Criar evento",
       "href": "https://app.atletis.com.br/evento/criar"
     }
   },
   "navigation": {
     "tabs": [
       {
-        "tab": "For Organizers",
+        "tab": "Para organizadores",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Primeiros passos",
             "pages": [
               "introduction",
               "quickstart",
@@ -41,7 +41,7 @@
             ]
           },
           {
-            "group": "Event Setup",
+            "group": "Configuração do evento",
             "pages": [
               "organizers/create-event",
               "organizers/event-page",
@@ -50,7 +50,7 @@
             ]
           },
           {
-            "group": "Registrations & Sales",
+            "group": "Inscrições e vendas",
             "pages": [
               "organizers/pricing-tiers",
               "organizers/discount-coupons",
@@ -59,7 +59,7 @@
             ]
           },
           {
-            "group": "Event Day",
+            "group": "Dia do evento",
             "pages": [
               "organizers/check-in-app",
               "organizers/participant-list",
@@ -67,7 +67,7 @@
             ]
           },
           {
-            "group": "Advanced Features",
+            "group": "Recursos avançados",
             "pages": [
               "organizers/white-label",
               "organizers/sports-agency",
@@ -77,10 +77,10 @@
         ]
       },
       {
-        "tab": "For Athletes",
+        "tab": "Para atletas",
         "groups": [
           {
-            "group": "Getting Started",
+            "group": "Primeiros passos",
             "pages": [
               "athletes/finding-events",
               "athletes/registration-process",
@@ -88,7 +88,7 @@
             ]
           },
           {
-            "group": "My Account",
+            "group": "Minha conta",
             "pages": [
               "athletes/my-tickets",
               "athletes/faq-athletes"

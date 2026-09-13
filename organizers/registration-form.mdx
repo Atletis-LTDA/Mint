@@ -1,152 +1,152 @@
 ---
-title: "Build a Custom Registration Form for Your Sports Event"
-sidebarTitle: "Registration Form"
-description: "Create personalized registration forms on Atletis to collect exactly the data you need — including medical information, kit sizes, team names, and more."
+title: "Monte um formulário de inscrição personalizado para o seu evento esportivo"
+sidebarTitle: "Formulário de inscrição"
+description: "Crie formulários de inscrição personalizados na Atletis para coletar exatamente os dados de que você precisa — informações médicas, tamanho de kit, nome da equipe e muito mais."
 ---
 
-The registration form is where you collect the information you need from each participant — and only that information. Atletis lets you build a custom form for your event, combining standard identity fields with any custom fields specific to your sport, format, or operations. The form is completed by the athlete at the time of registration, immediately after they select their category and before they pay.
+O formulário de inscrição é onde você coleta as informações necessárias de cada participante — e só elas. A Atletis permite montar um formulário personalizado para o seu evento, combinando os campos padrão de identificação com campos específicos do seu esporte, do seu formato ou da sua operação. O atleta preenche o formulário no momento da inscrição, logo depois de escolher a categoria e antes de pagar.
 
-Well-designed forms reduce friction for the athlete and give your team the data it needs to run check-in, distribute kits, assign start waves, and handle emergencies. A form that asks for too much creates drop-off; one that asks for too little creates gaps you'll scramble to fill on event day.
+Um formulário bem pensado reduz o atrito para o atleta e entrega à sua equipe os dados necessários para fazer check-in, distribuir kits, montar pelotões de largada e lidar com emergências. Um formulário que pede demais gera desistência; um que pede de menos deixa lacunas que você vai precisar correr para preencher no dia do evento.
 
 ---
 
-## Standard fields included in every form
+## Campos padrão presentes em todo formulário
 
-Every registration on Atletis automatically includes a set of core identity fields that are required for all participants:
+Toda inscrição na Atletis inclui automaticamente um conjunto de campos básicos de identificação, obrigatórios para todos os participantes:
 
-| Field | Notes |
-|---|---|
-| **Full name** | Used on the participant list, check-in, and results |
-| **CPF** (Brazilian tax ID) | Used for identity verification — see the CPF uniqueness note below |
-| **Date of birth** | Used to validate age-group category eligibility |
-| **Phone number** | Primary contact for operational communications |
-| **Email address** | Used for registration confirmation and pre-event updates |
+| Campo | Observações |
+| --- | --- |
+| **Nome completo** | Usado na lista de participantes, no check-in e nos resultados |
+| **CPF** | Usado para verificação de identidade — veja a nota sobre CPF único abaixo |
+| **Data de nascimento** | Usada para validar a elegibilidade nas categorias por faixa etária |
+| **Telefone** | Contato principal para comunicações operacionais |
+| **E-mail** | Usado para a confirmação da inscrição e avisos antes do evento |
 
 <Note>
-  **CPF uniqueness:** On paid-plan events, Atletis enforces one registration per CPF per event. This prevents duplicate registrations under the same identity document, ensuring your participant list accurately reflects unique individuals. Athletes who try to register a second time with the same CPF will be blocked.
+  **CPF único:** em eventos de planos pagos, a Atletis permite apenas uma inscrição por CPF por evento. Isso evita inscrições duplicadas com o mesmo documento e garante que a sua lista de participantes reflita pessoas únicas. Atletas que tentarem se inscrever uma segunda vez com o mesmo CPF serão bloqueados.
 </Note>
 
-These standard fields are always present and cannot be removed. Your custom fields are added on top of them.
+Esses campos padrão estão sempre presentes e não podem ser removidos. Os seus campos personalizados são adicionados a eles.
 
 ---
 
-## Build your custom registration form
+## Monte o seu formulário de inscrição personalizado
 
 <Steps>
-  <Step title="Open the Form section in your dashboard">
-    In your organizer dashboard, navigate to your event and open the **Registration Form** (Formulário) section. This is where you manage all fields beyond the standard identity data.
+  <Step title="Abra a seção Formulário no painel">
+    No painel do organizador, acesse o seu evento e abra a seção **Formulário de inscrição** (Formulário). É ali que você gerencia todos os campos além dos dados padrão de identificação.
   </Step>
 
-  <Step title="Review the standard fields">
-    The standard fields (name, CPF, date of birth, phone, email) are pre-populated and already active. Confirm they are all enabled — they are required and cannot be turned off.
+  <Step title="Revise os campos padrão">
+    Os campos padrão (nome, CPF, data de nascimento, telefone, e-mail) já vêm preenchidos e ativos. Confirme que todos estão habilitados — eles são obrigatórios e não podem ser desativados.
   </Step>
 
-  <Step title="Add custom fields">
-    Click **Add field** (Adicionar campo) to insert a new custom field. For each field, you configure:
+  <Step title="Adicione campos personalizados">
+    Clique em **Adicionar campo** para inserir um novo campo personalizado. Para cada campo, você configura:
 
-    - **Field label** — The question or label the athlete sees (e.g., "T-shirt size", "Team / training group name", "Emergency contact name and phone")
-    - **Field type** — Short text, long text, multiple choice (dropdown or radio buttons), checkbox, or file upload
-    - **Required or optional** — Whether the athlete must answer this field to complete registration
+    - **Rótulo do campo** — a pergunta ou o rótulo que o atleta vê (ex.: "Tamanho da camiseta", "Nome da equipe / assessoria", "Nome e telefone do contato de emergência")
+    - **Tipo de campo** — texto curto, texto longo, múltipla escolha (lista suspensa ou botões de opção), caixa de seleção ou envio de arquivo
+    - **Obrigatório ou opcional** — se o atleta precisa responder esse campo para concluir a inscrição
 
-    Add as many custom fields as your event genuinely needs. Common examples by event type:
+    Adicione quantos campos personalizados o seu evento realmente precisar. Exemplos comuns por tipo de evento:
 
     <CardGroup cols={2}>
-      <Card title="Running & cycling events" icon="person-running">
-        - T-shirt size (kit)
-        - Training group or assessoria name
-        - Emergency contact name and phone
-        - Average pace or expected finish time (for wave assignment)
+      <Card title="Corridas e eventos de ciclismo" icon="person-running">
+        - Tamanho da camiseta (kit)
+        - Nome do grupo de treino ou assessoria esportiva
+        - Nome e telefone do contato de emergência
+        - Ritmo médio ou tempo previsto de conclusão (para montar os pelotões)
       </Card>
-      <Card title="Team sports & tournaments" icon="trophy">
-        - Team name
-        - Club or federation affiliation
-        - Jersey number
-        - Coach or team manager name
+      <Card title="Esportes coletivos e torneios" icon="trophy">
+        - Nome da equipe
+        - Clube ou federação
+        - Número da camisa
+        - Nome do técnico ou do responsável pela equipe
       </Card>
-      <Card title="Multi-sport & adventure" icon="mountain">
-        - Emergency contact name and phone
-        - Blood type
-        - Known medical conditions
-        - Whether the participant has completed this event before
+      <Card title="Multiesportes e aventura" icon="mountain">
+        - Nome e telefone do contato de emergência
+        - Tipo sanguíneo
+        - Condições médicas conhecidas
+        - Se o participante já concluiu este evento antes
       </Card>
-      <Card title="All event types" icon="clipboard">
-        - How the athlete found out about the event (for marketing tracking)
-        - Consent for image use (photo/video authorization)
-        - Acceptance of event regulations
-        - Dietary restrictions or accessibility needs
+      <Card title="Todos os tipos de evento" icon="clipboard">
+        - Como o atleta ficou sabendo do evento (para acompanhar o marketing)
+        - Consentimento para uso de imagem (autorização de foto/vídeo)
+        - Aceite do regulamento do evento
+        - Restrições alimentares ou necessidades de acessibilidade
       </Card>
     </CardGroup>
   </Step>
 
-  <Step title="Mark fields as required or optional">
-    For each custom field, decide whether it is **required** (the athlete cannot submit the form without answering it) or **optional** (the athlete can skip it).
+  <Step title="Marque os campos como obrigatórios ou opcionais">
+    Para cada campo personalizado, decida se ele é **obrigatório** (o atleta não consegue enviar o formulário sem responder) ou **opcional** (o atleta pode pular).
 
     <Tip>
-      Keep the number of required fields to the minimum you genuinely need for operations. Every additional required field increases the chance an athlete abandons the registration. Mark a field as required only if a missing answer would create a real problem — a missing t-shirt size, for example, stops you from preparing kits; a missing "how did you hear about us?" answer does not.
+      Mantenha o número de campos obrigatórios no mínimo que a operação realmente exige. Cada campo obrigatório a mais aumenta a chance de o atleta abandonar a inscrição. Marque um campo como obrigatório só se a falta da resposta criar um problema real — sem o tamanho da camiseta, por exemplo, você não consegue preparar os kits; sem a resposta de "como ficou sabendo do evento?", nada trava.
     </Tip>
   </Step>
 
-  <Step title="Preview the form">
-    Use the preview feature to see exactly what your registration form looks like from the athlete's perspective. Check that every field label is clear and unambiguous. Submit a test registration with your own data to confirm the end-to-end flow works as expected.
+  <Step title="Visualize o formulário">
+    Use a pré-visualização para ver exatamente como o formulário aparece para o atleta. Confira se cada rótulo está claro e sem ambiguidade. Faça uma inscrição de teste com os seus próprios dados para confirmar que o fluxo funciona do início ao fim.
   </Step>
 
-  <Step title="Save and publish">
-    Save your form configuration. The form takes effect immediately for all new registrations. If your event is already live and you need to add a field, you can do so at any time — but note that athletes who registered before the change will not have answered the new field. Plan your form carefully before opening registrations to avoid this gap.
+  <Step title="Salve e publique">
+    Salve a configuração do formulário. Ela passa a valer imediatamente para todas as novas inscrições. Se o evento já estiver no ar e você precisar adicionar um campo, pode fazer isso a qualquer momento — mas lembre que os atletas inscritos antes da mudança não terão respondido o campo novo. Planeje o formulário com cuidado antes de abrir as inscrições para evitar essa lacuna.
   </Step>
 </Steps>
 
 ---
 
-## Per-category forms (multiform)
+## Formulários por categoria (multiformulário)
 
-On paid-plan events, Atletis supports configuring **different forms for different categories** — a feature sometimes called multiform. This is useful when different groups of participants genuinely need to provide different information.
+Em eventos de planos pagos, a Atletis permite configurar **formulários diferentes para categorias diferentes** — recurso às vezes chamado de multiformulário. Ele é útil quando grupos distintos de participantes precisam, de fato, informar dados diferentes.
 
-For example:
-- Solo runners might need a t-shirt size and emergency contact; relay teams might need team member names and a team captain's phone number.
-- Elite athletes might need to provide their federation license number; age-group participants do not.
-- A children's category might require a parent or guardian name and signature authorization; adult categories do not.
+Por exemplo:
+- Corredores individuais podem precisar informar tamanho de camiseta e contato de emergência; equipes de revezamento podem precisar informar os nomes dos integrantes e o telefone do capitão.
+- Atletas de elite podem precisar informar o número da licença da federação; participantes de faixa etária, não.
+- Uma categoria infantil pode exigir o nome do responsável e a autorização assinada; categorias adultas, não.
 
-To use per-category forms, configure the base form for the event and then override specific fields for individual categories from the Category settings. Fields added to a category-specific form are shown only to athletes registering in that category.
+Para usar formulários por categoria, configure o formulário base do evento e depois sobrescreva campos específicos para cada categoria nas configurações da Categoria. Os campos adicionados ao formulário de uma categoria aparecem apenas para os atletas que se inscrevem nela.
 
 <Note>
-  Per-category forms are available on paid events. Free events (with no registration fee) use a single shared form for all categories.
+  Formulários por categoria estão disponíveis em eventos pagos. Eventos gratuitos (sem taxa de inscrição) usam um único formulário compartilhado por todas as categorias.
 </Note>
 
 ---
 
-## The integrated medical form (ficha médica)
+## A ficha médica integrada
 
-For large events or events involving significant physical exertion, Atletis offers an integrated **medical form** (ficha médica) option for organizations on the large-event plan. This form captures health-relevant information from each participant, including:
+Para eventos grandes ou que envolvem esforço físico significativo, a Atletis oferece a opção de **ficha médica** integrada para organizações no plano de grandes eventos. Essa ficha coleta informações de saúde relevantes de cada participante, incluindo:
 
-- Pre-existing medical conditions
-- Current medications
-- Known allergies or dietary restrictions
-- Weight and height
-- Physical fitness attestation
+- Condições médicas pré-existentes
+- Medicamentos em uso
+- Alergias conhecidas ou restrições alimentares
+- Peso e altura
+- Declaração de aptidão física
 
-The medical form data is stored securely alongside the registration record and is accessible to your medical team on event day. It is separate from the general registration form and subject to additional data-handling considerations under Brazil's LGPD data-protection law.
+Os dados da ficha médica ficam armazenados com segurança junto ao registro da inscrição e ficam acessíveis à sua equipe médica no dia do evento. A ficha é separada do formulário de inscrição geral e está sujeita a cuidados adicionais de tratamento de dados previstos na LGPD.
 
 <Warning>
-  The integrated ficha médica is available on the large-event (Grandes Organizadores) plan. Contact the Atletis team to enable this feature for your organization.
+  A ficha médica integrada está disponível no plano de grandes eventos (Grandes Organizadores). Entre em contato com a equipe da Atletis para ativar esse recurso na sua organização.
 </Warning>
 
 ---
 
-## How collected data is used
+## Como os dados coletados são usados
 
-The information gathered through your registration form flows directly into your event's operational tools:
+As informações reunidas pelo formulário de inscrição alimentam diretamente as ferramentas operacionais do seu evento:
 
 <CardGroup cols={2}>
-  <Card title="Participant list" icon="table">
-    All form responses are included in the exportable participant list. You can filter, sort, and export by any field — category, t-shirt size, team name, and more.
+  <Card title="Lista de participantes" icon="table">
+    Todas as respostas do formulário entram na lista de participantes exportável. Você pode filtrar, ordenar e exportar por qualquer campo — categoria, tamanho de camiseta, nome da equipe e mais.
   </Card>
-  <Card title="Check-in app" icon="mobile-screen">
-    The Atletis check-in app displays each participant's key details — name, CPF, category, and any critical fields — at the moment of validation on event day, so your staff can confirm identity and hand off kits in seconds.
+  <Card title="App de check-in" icon="mobile-screen">
+    O app de check-in da Atletis mostra os dados principais de cada participante — nome, CPF, categoria e os campos críticos — no momento da validação no dia do evento, para que a sua equipe confirme a identidade e entregue o kit em segundos.
   </Card>
-  <Card title="Kit distribution" icon="shirt">
-    If you collected t-shirt sizes, team names, or other kit-related data, you can generate a sorted kit manifest directly from the participant list to guide your distribution team.
+  <Card title="Distribuição de kits" icon="shirt">
+    Se você coletou tamanhos de camiseta, nomes de equipe ou outros dados ligados ao kit, pode gerar uma relação de kits ordenada direto da lista de participantes para orientar a equipe de distribuição.
   </Card>
-  <Card title="Communication" icon="envelope">
-    Registration data feeds into Atletis's athlete communication tools. You can send targeted messages to specific categories or groups — for example, a reminder about kit pickup only to participants in the 21 km category.
+  <Card title="Comunicação" icon="envelope">
+    Os dados da inscrição alimentam as ferramentas de comunicação com atletas da Atletis. Você pode enviar mensagens direcionadas a categorias ou grupos específicos — por exemplo, um lembrete sobre a retirada de kit só para os participantes da categoria 21 km.
   </Card>
 </CardGroup>
