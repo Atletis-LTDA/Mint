@@ -1,10 +1,14 @@
 ---
 title: "Configure lotes de inscrição para o seu evento esportivo"
 sidebarTitle: "Lotes"
-description: "Configure vários lotes de inscrição para o seu evento. Defina aumentos automáticos de preço por data ou por quantidade para incentivar inscrições antecipadas."
+description: "Na Atletis, cada lote é um ingresso com período e quantidade. Configure a virada automática por data ou por quantidade para incentivar inscrições antecipadas."
 ---
 
 Os lotes permitem vender inscrições em fases sequenciais, cada uma com o seu próprio preço e a sua própria janela de disponibilidade. Em vez de cobrar um valor único desde a abertura das inscrições até o dia do evento, você recompensa quem acredita cedo com um preço menor e vai aumentando aos poucos conforme a data se aproxima. O resultado é um fluxo de caixa constante desde o início, um senso de urgência natural e uma lista de participantes que cresce ao longo de toda a campanha.
+
+<Note>
+  Na Atletis, **lote não é um objeto separado: cada lote é um ingresso** com período de venda e quantidade próprios, cadastrado dentro de uma [categoria](/organizers/categories). Um evento com 5 km e 10 km em três lotes tem duas categorias e seis ingressos.
+</Note>
 
 ## Por que os lotes funcionam
 
@@ -17,7 +21,7 @@ Um lote é mais do que uma linha na tabela de preços. Cada um cumpre um papel c
 - **Fornece sinais de desempenho** — acompanhar a velocidade com que cada lote esgota mostra se o preço e a divulgação estão funcionando, ainda com tempo de ajustar.
 
 <Note>
-  Uma virada de lote sem aviso soa como pegadinha para os participantes. Sempre anuncie antecipadamente o preço e o gatilho do próximo lote — na página de inscrição, nas redes sociais e nas mensagens de lembrete antes do prazo.
+  Uma virada de lote sem aviso soa como pegadinha para os participantes. Sempre anuncie antecipadamente o preço e o gatilho do próximo lote — na página de inscrição, nas redes sociais e nos seus canais de divulgação.
 </Note>
 
 ## Planejando a estrutura de lotes
@@ -26,9 +30,9 @@ Antes de abrir as inscrições, decida quantos lotes fazem sentido para o seu ev
 
 | Lote | Objetivo | Gatilho sugerido | Comunicação |
 | --- | --- | --- | --- |
-| Pré-venda / Lote Zero | Testar a demanda, gerar caixa inicial | Janela curta de datas ou quantidade fixa pequena | Anúncio exclusivo para a sua lista de e-mails e parceiros próximos |
+| Pré-venda / Lote Zero | Testar a demanda, gerar caixa inicial | Janela curta de datas ou quantidade fixa pequena | Anúncio exclusivo para a sua lista e parceiros próximos |
 | Lote 1 | Recompensar os primeiros inscritos | Data fixa ou as primeiras N vagas vendidas | Campanha ampla de lançamento com prazo claro |
-| Lote 2 | Manter o ritmo de vendas | Marco de data ou de quantidade | Mensagem de lembrete alguns dias antes da virada |
+| Lote 2 | Manter o ritmo de vendas | Marco de data ou de quantidade | Lembrete alguns dias antes da virada |
 | Lote 3 (final) | Capturar decisões de última hora | Data de encerramento antes do evento | Contagem regressiva e mensagens de última chamada |
 
 <Tip>
@@ -37,67 +41,87 @@ Antes de abrir as inscrições, decida quantos lotes fazem sentido para o seu ev
 
 ## Exemplo prático: uma corrida de rua com três lotes
 
-A tabela abaixo mostra como três lotes poderiam ser estruturados em uma corrida de rua de 10 km com uma única categoria adulta.
+A tabela abaixo mostra como três lotes poderiam ser estruturados em uma corrida de rua de 10 km — ou seja, três ingressos dentro da categoria 10 km.
 
 | | Lote 1 | Lote 2 | Lote 3 |
 |-|--------|--------|--------|
 | **Preço** | R\$ 60 | R\$ 80 | R\$ 100 |
-| **Vagas disponíveis** | 100 | 150 | Restantes |
+| **Quantidade disponível** | 100 | 150 | Restantes |
 | **Gatilho de virada** | 100 vagas vendidas OU 45 dias antes do evento | 150 vagas vendidas OU 20 dias antes do evento | Encerra 48 h antes do evento |
 | **Objetivo** | Recompensar o comprometimento antecipado | Manter o ritmo | Capturar inscrições de última hora |
 
 Quem se inscreve no Lote 1 paga R\$ 40 a menos do que quem espera até o último lote — uma recompensa clara e concreta por agir cedo.
 
+<Note>
+  Nas **últimas 72 horas** antes do evento o boleto fica indisponível: o atleta paga só por Pix ou cartão. Leve isso em conta ao definir o encerramento do último lote.
+</Note>
+
+<Tip>
+  Se o regulamento fala em um número total de vagas para o evento, lembre que a **quantidade é por ingresso**. Divida o total entre os lotes ao cadastrar.
+</Tip>
+
 ## Configurando lotes na Atletis
 
 <Steps>
   <Step title="Faça login e abra o seu evento">
-    Acesse [app.atletis.com.br/meus-eventos](https://app.atletis.com.br/meus-eventos) e clique no evento que quer configurar. Se ainda não criou o evento, clique em **Criar Evento** na página inicial da Atletis e preencha primeiro os dados do evento (modalidade, data, local, contato do organizador).
+    Acesse [app.atletis.com.br/meus-eventos](https://app.atletis.com.br/meus-eventos) e clique no evento que quer configurar. Se ainda não criou o evento, comece por [Criar evento](/organizers/create-event) e preencha primeiro os dados do evento.
   </Step>
 
-  <Step title="Acesse a seção de inscrições e preços">
-    No editor do evento, localize a seção **Ingressos / Inscrições**. É ali que você define todos os lotes do evento.
+  <Step title="Abra a aba Ingressos">
+    No editor do evento, vá até a aba **Ingressos**. É ali que ficam as categorias e os ingressos — e, portanto, os lotes.
   </Step>
 
-  <Step title="Crie o primeiro lote">
-    Clique em **Adicionar lote**. Preencha:
-    - **Nome** — ex.: "Lote 1 – Early Bird"
+  <Step title="Crie o ingresso do primeiro lote">
+    Dentro da categoria correspondente, clique em **Adicionar ingresso** e preencha:
+    - **Nome** — ex.: `10 km – Lote 1`
     - **Preço** — o valor da inscrição neste lote
-    - **Vagas disponíveis** — deixe em branco para ilimitado ou informe um número para limitar este lote
+    - **Quantidade disponível** — quantas vagas este lote vende
     - **Data / hora de início** — quando este lote abre
-    - **Data / hora de término** — quando este lote encerra (o gatilho de virada automática)
+    - **Data / hora de término** — quando este lote encerra
   </Step>
 
   <Step title="Configure o gatilho de virada automática">
-    A Atletis oferece dois gatilhos de virada — você pode usar um deles ou combinar os dois:
+    A virada acontece sozinha, por um dos dois gatilhos — ou pelos dois combinados:
 
-    - **Por data** — o lote encerra automaticamente na data e hora definidas, e o próximo lote abre na sequência.
-    - **Por quantidade** — o lote encerra assim que o limite de vagas é atingido, mesmo que a data de término ainda não tenha chegado.
+    - **Por data** — o ingresso encerra na data e hora definidas, e o próximo entra em vigor.
+    - **Por quantidade** — o ingresso encerra assim que a quantidade disponível se esgota, mesmo que a data de término ainda não tenha chegado.
 
-    Você não precisa virar os lotes manualmente. Quando um gatilho dispara, a plataforma passa sozinha para o próximo lote ativo.
+    Usando os dois juntos, o lote encerra no que vier primeiro.
+  </Step>
+
+  <Step title="Ative Mostrar apenas ingressos disponíveis">
+    Sem essa opção, o atleta vê também os lotes já esgotados, riscados na vitrine. Ative **Mostrar apenas ingressos disponíveis** para que ele veja apenas o lote vigente.
   </Step>
 
   <Step title="Adicione os lotes seguintes">
-    Repita o passo 3 para cada lote adicional (Lote 2, Lote 3 etc.), aumentando o preço a cada um. Garanta que a data de início de cada novo lote coincida com a data de término do anterior, para não haver intervalo sem inscrições disponíveis.
+    Repita o processo para cada lote adicional, aumentando o preço a cada um. Garanta que a data de início de cada novo lote coincida com a data de término do anterior. Se ficar um intervalo entre lotes, a página mostra "Inscrições em breve" com a data de abertura e a opção de avise-me — o que é legítimo, mas normalmente não é o que você quer no meio da campanha.
   </Step>
 
-  <Step title="Revise e publique">
-    Revise todos os lotes — preços, limites de vagas e datas de virada — antes de publicar o evento. Com as inscrições abertas, os participantes veem o preço do lote vigente na página do evento. Quando um lote encerra, a página passa a exibir automaticamente o preço e a disponibilidade do próximo.
+  <Step title="Revise antes de divulgar">
+    Revise todos os ingressos — nomes, preços, quantidades e datas — antes de divulgar o evento. O evento passa pela conferência da Atletis (**Aguardando aprovação**) antes de ir ao ar, e é exatamente essa configuração que conferimos.
   </Step>
 </Steps>
 
+## Lotes privados e ocultos
+
+Um ingresso pode ser **privado**, acessível apenas por um link exclusivo, ou **oculto** na vitrine. É o caminho para pré-venda fechada, cortesias de patrocinador e condições combinadas com parceiros, sem expor o valor ao público geral.
+
+<Tip>
+  Para **pausar as vendas** sem mexer nas datas dos lotes, use a chave de disponibilidade das inscrições do evento.
+</Tip>
+
 ## O que os participantes veem
 
-Durante o checkout, os participantes sempre veem o **lote ativo no momento** e o seu preço. Eles não precisam escolher um lote manualmente — a plataforma determina qual está aberto com base na data e nas vagas restantes. Se você comunicar as viradas de lote com transparência, os participantes entendem que o preço exibido tem prazo, o que acelera a decisão.
+Durante o checkout, o participante escolhe a categoria e depois o ingresso. Com **Mostrar apenas ingressos disponíveis** ativo, ele vê apenas o lote vigente e o seu preço; sem a opção, vê também os lotes esgotados marcados como tal. Se você comunicar as viradas com transparência, os participantes entendem que o preço exibido tem prazo, o que acelera a decisão.
 
 ## Boas práticas
 
 <CardGroup cols={2}>
   <Card title="Anuncie todos os lotes desde o início" icon="megaphone">
-    Publique o cronograma completo de lotes — preços, datas e limites de vagas — na página do evento antes de abrir as vendas. Transparência gera confiança e ajuda os participantes a se planejarem.
+    Publique o cronograma completo de lotes — preços, datas e quantidades — na descrição do evento antes de abrir as vendas. Transparência gera confiança e ajuda os participantes a se planejarem.
   </Card>
   <Card title="Use os dois gatilhos juntos" icon="sliders">
-    Definir limite de data e limite de vagas faz o lote encerrar no que vier primeiro. Isso protege você caso as vendas andem mais rápido que o esperado.
+    Definir data de término e quantidade faz o lote encerrar no que vier primeiro. Isso protege você caso as vendas andem mais rápido que o esperado.
   </Card>
   <Card title="Evite lotes demais" icon="list-check">
     Mais de quatro ou cinco lotes pode diluir a urgência. Cada lote precisa de um motivo claro para existir. Se dois lotes têm o mesmo objetivo, junte os dois.
@@ -110,3 +134,5 @@ Durante o checkout, os participantes sempre veem o **lote ativo no momento** e o
 <Warning>
   Nunca adie a data de virada de um lote ativo sem comunicar a mudança a quem já se inscreveu. Prorrogações surpresa soam desonestas e minam a confiança nas próximas edições do seu evento.
 </Warning>
+
+Dúvidas na configuração dos lotes? Fale com a Atletis em [contato@atletis.com.br](mailto:contato@atletis.com.br) ou pelo WhatsApp +55 48 99145-5196.

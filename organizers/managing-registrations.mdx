@@ -4,7 +4,7 @@ sidebarTitle: "Gestão de inscrições"
 description: "Use o painel do organizador da Atletis para ver, filtrar e gerenciar todas as inscrições. Acompanhe as vendas em tempo real, trate exceções e exporte dados."
 ---
 
-Depois que o evento está no ar e as inscrições começam a chegar, o painel do organizador da Atletis vira o seu centro de comando. Cada inscrição, confirmação de pagamento e atribuição de categoria entra em um único painel em [app.atletis.com.br/meus-eventos](https://app.atletis.com.br/meus-eventos), para que você sempre saiba exatamente onde está — sem planilhas, mensagens manuais de confirmação ou achismo. Esta página mostra os fluxos principais que você vai usar desde a abertura das inscrições até o dia de entregar os kits.
+Depois que o evento está no ar e as inscrições começam a chegar, o painel do organizador da Atletis vira o seu centro de comando. Cada inscrição, confirmação de pagamento e atribuição de categoria entra em um único painel em [app.atletis.com.br/meus-eventos](https://app.atletis.com.br/meus-eventos), para que você sempre saiba exatamente onde está — sem planilhas paralelas nem achismo. Esta página mostra os fluxos principais que você vai usar desde a abertura das inscrições até o dia de entregar os kits.
 
 ## Visão geral do painel do organizador
 
@@ -16,14 +16,14 @@ Depois de fazer login, acesse **Meus Eventos** e selecione o seu evento. O paine
 - **Financeiro** — relatórios de receita e informações de repasse
 
 <Tip>
-  Salve a URL direta do painel do seu evento nos favoritos para conferir as vendas em tempo real pelo celular entre reuniões, no local durante a montagem ou de onde estiver. A Atletis funciona em navegadores de celular sem precisar de um app separado para o painel do organizador.
+  Salve a URL direta do painel do seu evento nos favoritos para conferir as vendas em tempo real pelo celular entre reuniões, no local durante a montagem ou de onde estiver. A Atletis roda no navegador, sem precisar instalar nada.
 </Tip>
 
 ## Acompanhando as vendas em tempo real
 
 A seção **Resumo** é atualizada continuamente conforme novas inscrições chegam. Ali você vê:
 
-- Número total de inscrições confirmadas
+- Número total de inscrições aprovadas
 - Receita total arrecadada até o momento
 - Distribuição das inscrições por **categoria** (ex.: 5 km, 10 km, corrida kids)
 - Distribuição das inscrições por **lote** (ex.: quantas vieram do Lote 1 e quantas do Lote 2)
@@ -38,45 +38,45 @@ Acompanhar a velocidade com que cada lote esgota permite decisões bem fundament
   </Step>
 
   <Step title="Revise os dados da inscrição">
-    Cada linha da lista mostra:
-    - Nome do participante
-    - CPF
-    - Categoria e lote escolhidos
-    - Forma de pagamento e status do pagamento (confirmado, pendente ou falhou)
-    - Data e hora da inscrição
+    Cada linha da lista mostra os dados do inscrito — nome, CPF, categoria e lote escolhidos, status do pagamento (**aprovado, pendente ou cancelado**) e data e hora da inscrição.
   </Step>
 
   <Step title="Busque e filtre">
-    Use a barra de busca para encontrar um participante por nome ou CPF. Você também pode filtrar a lista por:
-    - Status do pagamento (confirmado / pendente)
-    - Categoria
-    - Lote
+    Use a busca alfanumérica para encontrar um participante por nome, e-mail, categoria ou lote. Você também pode filtrar a lista por:
+    - **Status do pagamento** (aprovado / pendente / cancelado)
+    - **Status de nomeação** (vinculado / não vinculado)
+    - **Categoria** e **lote**
 
     Filtrar por "pendente" é especialmente útil nos dias que antecedem o evento para identificar inscrições que podem precisar de acompanhamento (por exemplo, boletos não pagos).
   </Step>
 </Steps>
 
+### Inscrições não vinculadas
+
+Em compras em grupo — uma assessoria que compra várias inscrições em um pedido único, por exemplo — o comprador faz o pagamento primeiro e informa os dados de cada atleta depois. Até que isso aconteça, a inscrição aparece como **não vinculada**: ela está paga, mas ainda não tem o atleta nomeado.
+
+Use o filtro de status de nomeação para acompanhar quem ainda falta nomear. Inscrições não vinculadas na véspera do evento afetam diretamente a separação de kits e a lista de check-in.
+
 ## Controle de CPF único
 
-A Atletis aplica por padrão a regra de **uma inscrição por CPF por evento**. Se um participante tentar se inscrever uma segunda vez com o mesmo CPF, a plataforma bloqueia a duplicidade. Isso protege você de:
+A validação de CPF é uma **configuração do evento**: você escolhe entre **limitar a um CPF único** ou **permitir repetição**. Com o CPF único ativo, um participante que tentar se inscrever uma segunda vez com o mesmo CPF é bloqueado. Isso protege você de:
 
 - Compras duplicadas por engano (e da dor de cabeça dos reembolsos que vêm depois)
-- Uso fraudulento de cupons de cortesia ou de desconto em várias inscrições
 - Contagens infladas de participantes que distorcem o planejamento logístico
 
 <Note>
-  O controle de CPF único vale por evento. O mesmo participante pode se inscrever em eventos diferentes — ou em uma edição futura do mesmo evento recorrente — sem problema.
+  Em eventos com várias baterias ou provas em que o mesmo atleta participa mais de uma vez — surf, por exemplo — faz sentido permitir a repetição de CPF. A configuração vale por evento.
 </Note>
 
 ## Tratando casos excepcionais
 
 ### Inscrições com boleto pendente
 
-Uma inscrição paga por boleto aparece como **pendente** na sua lista até o banco confirmar o pagamento (até 3 dias úteis). Durante essa janela:
+Uma inscrição paga por boleto aparece como **pendente** na sua lista até o banco confirmar o pagamento. Durante essa janela:
 
 - A vaga é considerada reservada, mesmo sem o pagamento confirmado.
 - Se você controla as vagas disponíveis, conte os boletos pendentes como inscrições provisórias.
-- Se o boleto não for pago dentro do prazo, o status muda automaticamente para cancelado e a vaga é liberada.
+- Se o boleto não for pago até o vencimento, o status muda automaticamente para cancelado e a vaga volta para o evento.
 
 <Warning>
   Não cancele manualmente uma inscrição com boleto pendente sem antes confirmar com o participante que ele não pretende pagar. Cancelar uma inscrição que o participante já pagou no banco (mas cujo pagamento ainda não compensou) vai gerar um chamado de suporte.
@@ -84,16 +84,21 @@ Uma inscrição paga por boleto aparece como **pendente** na sua lista até o ba
 
 ### Inscrições que precisam de correção de categoria
 
-Se um participante se inscreveu na categoria errada (por exemplo, faixa etária ou distância errada), fale diretamente com ele e peça que entre em contato com o suporte da Atletis em [contato@atletis.com.br](mailto:contato@atletis.com.br) para tratar a correção. Registre o pedido nos seus próprios controles.
+Se um participante se inscreveu na categoria errada (por exemplo, faixa etária ou distância errada), **a alteração é feita por você, direto no painel**: abra a inscrição e ajuste a categoria, distância ou modalidade. Quem define se a troca pode ser feita é a organização do evento, conforme o regulamento.
 
-## Enviando mensagens aos participantes inscritos
+O suporte da Atletis entra apenas em casos que envolvem pagamento ou disputa. Nesses casos, escreva para [contato@atletis.com.br](mailto:contato@atletis.com.br) ou chame no WhatsApp +55 48 99145-5196.
 
-A Atletis centraliza a comunicação com os seus participantes para que você não precise administrar um grupo de WhatsApp ou uma lista de e-mails em cópia oculta manualmente. Pelo painel do evento, você envia avisos diretamente a todos os inscritos confirmados — útil para:
+### Pedidos de reembolso
 
-- Anunciar mudanças de local ou ajustes de programação
-- Compartilhar informações de retirada de kit e detalhes logísticos
-- Enviar lembretes de contagem regressiva conforme a data se aproxima
-- Avisar os participantes sobre viradas de lote
+A Atletis aplica o Código de Defesa do Consumidor: o participante tem direito de arrependimento em **até 7 dias a partir da compra**, desde que a mais de **48 horas do evento**. Nessa janela, o reembolso é processado pela plataforma.
+
+Fora dessa janela, o reembolso é **escolha comercial sua**, conforme o regulamento do evento — a Atletis executa a sua decisão. Em caso de **evento cancelado**, o reembolso é integral.
+
+## Comunicação com os inscritos
+
+A plataforma **não tem disparo de e-mail ou mensagem em massa**. O caminho para comunicação ativa é a **exportação da lista**: você exporta os inscritos e comunica pelos seus próprios canais (e-mail, WhatsApp, redes sociais), respeitando a LGPD e as permissões que o participante autorizou no formulário de inscrição.
+
+Se o seu evento precisa de disparo de comunicação pela Atletis, isso é avaliado sob consulta ao time comercial — fale com [contato@atletis.com.br](mailto:contato@atletis.com.br) ou pelo WhatsApp +55 48 99145-5196.
 
 <Tip>
   Envie pelo menos um aviso logístico na semana anterior ao evento (local, horário de largada, estacionamento, retirada de kit). Participantes bem informados chegam preparados, e a sua equipe gasta menos tempo respondendo às mesmas perguntas no dia.
@@ -109,13 +114,17 @@ Na hora de preparar os kits, os números de peito ou as planilhas de check-in, v
   </Step>
 
   <Step title="Aplique os filtros necessários">
-    Filtre por categoria, lote ou status do pagamento para exportar só os dados de que precisa. Para preparar kits, exporte apenas as inscrições confirmadas.
+    Filtre por categoria, lote, status do pagamento ou status de nomeação para localizar o recorte de que precisa. Para preparar kits, olhe as inscrições aprovadas e já vinculadas.
   </Step>
 
   <Step title="Exporte a lista">
-    Clique no botão de exportar para baixar os dados dos participantes. A exportação inclui nome, CPF, categoria, lote, tamanho de camiseta (se coletado) e status do pagamento, dando à sua equipe de logística tudo o que precisa para montar os kits com precisão.
+    Clique no botão de exportar para baixar o arquivo em **Excel**. A exportação traz todos os dados: dados do inscrito, respostas do formulário (tamanho de camiseta, equipe, contato de emergência e o que mais você coletou), status e valores.
   </Step>
 </Steps>
+
+<Warning>
+  O arquivo exportado contém dados pessoais dos participantes. Trate-o conforme a LGPD: compartilhe apenas com quem precisa dele para operar o evento, use somente para as finalidades informadas no formulário de inscrição e apague as cópias quando o evento terminar.
+</Warning>
 
 <Tip>
   Exporte a lista pelo menos 48 horas antes do evento e de novo na manhã do evento para capturar as inscrições de última hora. Guarde as duas versões — a primeira serve para preparar os kits, e a final é a lista oficial para o check-in.
@@ -130,10 +139,10 @@ Na hora de preparar os kits, os números de peito ou as planilhas de check-in, v
   <Card title="Identifique pagamentos pendentes" icon="hourglass-half">
     Filtre **Inscrições** pelo status "pendente" alguns dias antes do evento para identificar boletos que ainda não foram confirmados.
   </Card>
-  <Card title="Comunique-se com os participantes" icon="envelope">
-    Use o recurso de mensagens integrado para enviar avisos logísticos, evitando o caos de administrar um grupo separado ou uma sequência de e-mails.
+  <Card title="Acompanhe as inscrições não vinculadas" icon="user-plus">
+    Use o filtro de status de nomeação para cobrar os compradores em grupo que ainda não informaram os dados dos atletas.
   </Card>
   <Card title="Exporte para preparar kits e check-in" icon="file-export">
-    Baixe a lista de participantes confirmados 48 h antes do evento para preparar os kits e de novo na manhã do evento como referência final para o check-in.
+    Baixe a lista de participantes 48 h antes do evento para preparar os kits e de novo na manhã do evento como referência final para o check-in.
   </Card>
 </CardGroup>

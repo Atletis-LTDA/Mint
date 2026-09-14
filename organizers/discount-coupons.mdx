@@ -1,43 +1,40 @@
 ---
 title: "Crie cupons de desconto para as inscrições do seu evento esportivo"
 sidebarTitle: "Cupons de desconto"
-description: "Aprenda a criar cupons de valor fixo, percentuais e de cortesia na Atletis para recompensar patrocinadores, influenciadores e primeiros inscritos."
+description: "Aprenda a criar cupons de valor fixo, percentuais, de cortesia e de cortesia equipe na Atletis para recompensar patrocinadores, influenciadores e primeiros inscritos."
 ---
 
-Cupons de desconto são uma das ferramentas mais flexíveis do marketing do seu evento. Na Atletis, você pode criar cupons que descontam um valor fixo da compra, aplicam uma redução percentual ou concedem uma inscrição totalmente gratuita — tudo na mesma seção **Cupons** do painel do evento. Cada cupom tem o seu próprio código, período de validade e limite de uso, dando a você controle preciso sobre quem se beneficia, quando e quantas vezes.
+Cupons de desconto são uma das ferramentas mais flexíveis do marketing do seu evento. Na Atletis, você pode criar cupons que descontam um valor fixo da compra, aplicam uma redução percentual ou concedem inscrições totalmente gratuitas — tudo na mesma seção **Cupons** do painel do evento. Cada cupom tem o seu próprio código, período de validade e limite de uso, dando a você controle preciso sobre quem se beneficia, quando e quantas vezes.
 
 ## Tipos de cupom
 
-A Atletis oferece três tipos de cupom. Entender a diferença ajuda a escolher o certo para cada situação.
+A Atletis oferece quatro tipos de cupom. Entender a diferença ajuda a escolher o certo para cada situação.
 
-<CardGroup cols={3}>
-  <Card title="Valor Fixo" icon="tag">
-    Desconta um valor específico (ex.: R\$ 20) do total do carrinho. O comprador sabe exatamente quanto vai pagar, o que facilita a comunicação e o entendimento.
+<CardGroup cols={2}>
+  <Card title="Valor fixo" icon="tag">
+    Desconta um valor definido em reais do total do pedido, aplicado **uma vez por compra**. O comprador sabe exatamente quanto vai pagar, o que facilita a comunicação e o entendimento.
   </Card>
   <Card title="Percentual" icon="percent">
-    Desconta um percentual entre **5% e 50%** do total do carrinho. A economia real cresce conforme o número de inscrições no carrinho.
+    Aplica um percentual de desconto sobre as inscrições dentro do mesmo pedido. A economia real cresce conforme o número de inscrições no carrinho.
   </Card>
   <Card title="Cortesia" icon="gift">
-    Concede **100% de desconto** em uma única inscrição. O participante não paga nada. Use para patrocinadores, imprensa, equipe ou acordos de parceria.
+    Zera o valor de **uma única inscrição**, escolhida pelo próprio atleta no carrinho. Use para patrocinadores, imprensa ou acordos de parceria.
+  </Card>
+  <Card title="Cortesia equipe" icon="users">
+    Zera **mais de uma inscrição em conjunto**, desde que sejam do **mesmo tipo de ingresso**. Não é possível misturar tipos de ingresso no mesmo pedido.
   </Card>
 </CardGroup>
 
-### Regra de valor mínimo do carrinho
-
-Para cupons de **valor fixo** e **percentuais**, o total do carrinho após o desconto precisa ser de **no mínimo R\$ 20**. Se um participante tentar aplicar um cupom que levaria o carrinho abaixo de R\$ 20, o desconto não será aplicado. Esse piso evita que os dois tipos pagos de cupom zerem uma compra por acidente — esse cenário é tratado exclusivamente pelo tipo cortesia.
-
-**Exemplo — valor fixo:** um participante adiciona três inscrições de R\$ 25 (total R\$ 75) e aplica um cupom fixo de R\$ 20. `(3 × R$25) − R$20 = R$55` ✅ O desconto é aplicado.
-
-**Exemplo — percentual:** um participante adiciona duas inscrições de R\$ 30 (total R\$ 60) e aplica um cupom de 20%. `R$60 − 20% = R$48` ✅ O desconto é aplicado.
-
-<Note>
-  Um cupom que levaria o carrinho a R\$ 0 não é a mesma coisa que uma cortesia. Se você quer dar uma inscrição totalmente gratuita, crie um cupom de **Cortesia** — ele tem controles próprios exatamente para isso.
-</Note>
-
 ### Cortesia: uma inscrição por uso
 
+Um cupom de cortesia zera apenas uma inscrição por pedido. Se um atleta quiser usar o mesmo código de cortesia em uma segunda inscrição (por exemplo, duas categorias diferentes do mesmo evento), precisará fazer duas compras separadas.
+
+### Cortesia equipe: várias inscrições, mesmo tipo de ingresso
+
+A cortesia equipe existe para zerar um grupo de inscrições de uma vez. A restrição é o tipo de ingresso: todas as inscrições do pedido precisam ser do mesmo tipo. Se você quer cobrir inscrições de 5 km e de 10 km, faça um pedido para cada tipo de ingresso.
+
 <Note>
-  Um cupom de cortesia permite ao participante comprar **apenas uma inscrição por carrinho**. Se um atleta quiser usar o mesmo código de cortesia em uma segunda inscrição (por exemplo, duas categorias diferentes do mesmo evento), precisará fazer duas compras separadas. Ao criar um cupom de cortesia, a plataforma define automaticamente a quantidade como **limitada** — você precisa informar quantas inscrições de cortesia quer emitir.
+  Se o seu objetivo é dar inscrições totalmente gratuitas, use **Cortesia** ou **Cortesia equipe** — são os tipos feitos para isso, com controles próprios. Cupons de valor fixo e percentuais servem para reduzir o preço, não para zerá-lo.
 </Note>
 
 ## Passo a passo: criando um cupom
@@ -61,11 +58,11 @@ Para cupons de **valor fixo** e **percentuais**, o total do carrinho após o des
     | Campo | Descrição |
     | --- | --- |
     | **Nome** | Um rótulo interno para a sua referência — ex.: "Influenciador Instagram – campanha de maio" ou "Cortesias VIP patrocinador" |
-    | **Código** | O código que os participantes vão digitar no checkout — ex.: `EARLYBIRD20` ou `PATROCINADOR2025`. Não são permitidos caracteres especiais, acentos ou espaços. |
+    | **Código** | O código que os participantes vão digitar no checkout — ex.: `EARLYBIRD20`. Use apenas letras e números, sem espaços ou símbolos, com **até 15 caracteres**. |
     | **Data / hora de início** | Quando o cupom passa a valer |
     | **Data / hora de término** | Quando o cupom expira |
-    | **Quantidade** | Escolha **ilimitada** ou **limitada**. Se limitada, informe o número máximo de usos do código. Cortesia vem limitada por padrão. |
-    | **Tipo de desconto** | Selecione **Valor fixo**, **Percentual** ou **Cortesia** e informe o valor ou percentual correspondente |
+    | **Quantidade** | Escolha **ilimitada** ou **limitada**. Se limitada, informe o número máximo de usos do código. |
+    | **Tipo de desconto** | Selecione **Valor fixo**, **Percentual**, **Cortesia** ou **Cortesia equipe** e informe o valor ou percentual correspondente |
   </Step>
 
   <Step title="Salve o cupom">
@@ -73,17 +70,27 @@ Para cupons de **valor fixo** e **percentuais**, o total do carrinho após o des
   </Step>
 
   <Step title="Acompanhe o uso">
-    De volta à página **Gerenciar Cupons**, você verá a lista de todos os cupons do evento. Para cada cupom, a Atletis mostra:
-    - Nome e código do cupom
-    - Tipo e valor do desconto
-    - Quantas vezes o código já foi usado
-    - A quantidade restante (se você definiu um limite)
+    De volta à página **Gerenciar Cupons**, você verá a lista de todos os cupons do evento. Para cada cupom, a Atletis mostra nome e código, tipo e valor do desconto e a **contagem de usos**.
   </Step>
 </Steps>
+
+<Tip>
+  Em cortesias com número acordado em contrato (patrocinadores, por exemplo), defina a **quantidade limitada** igual ao número combinado. Assim você não emite mais cortesias do que o previsto.
+</Tip>
+
+## Importando cupons e criação em massa
+
+Além da criação manual, o painel permite trazer cupons prontos:
+
+- **Importar cupons anteriores** — reaproveite os códigos de uma edição passada do evento em vez de recadastrar um a um.
+- **Importar com planilha** — envie um arquivo `.xlsx`, `.xls` ou `.csv` com os cupons.
+
+A importação por planilha é o caminho para criação em massa — por exemplo, quando você precisa de um código por CPF para um grupo, uma assessoria ou uma equipe.
 
 ## Orientações para códigos de cupom
 
 - Use apenas **letras e números** — sem espaços, hífens, acentos (ã, é, ç) ou caracteres especiais.
+- Respeite o limite de **15 caracteres**.
 - Faça o código **descritivo e fácil de lembrar** para quem vai recebê-lo — ex.: `MINHACORRIDA20` para um cupom de 20% em uma corrida chamada "Minha Corrida".
 - Evite reutilizar o mesmo código em eventos diferentes para não confundir os seus próprios registros.
 
@@ -94,10 +101,10 @@ Para cupons de **valor fixo** e **percentuais**, o total do carrinho após o des
     Crie um cupom percentual ou de valor fixo com validade curta (ex.: as duas primeiras semanas de vendas) para recompensar quem se compromete cedo — além do que o preço do Lote 1 já oferece.
   </Card>
   <Card title="Compras em grupo ou por equipe" icon="users">
-    Emita um código para compras em grupo (ex.: 5 ou mais inscrições). Os cupons se aplicam ao carrinho inteiro, então a economia cresce automaticamente com o número de inscrições.
+    Para grupos e assessorias, use a **cortesia equipe** (mesmo tipo de ingresso) ou gere os códigos em massa por planilha. Cupons percentuais se aplicam às inscrições do mesmo pedido, então a economia cresce com o número de inscrições.
   </Card>
   <Card title="Influenciadores nas redes sociais" icon="share-nodes">
-    Dê a cada influenciador um código único e rastreável (ex.: `JOAO10` para 10% de desconto). O contador de usos no painel de cupons mostra exatamente quantas inscrições cada um gerou.
+    Dê a cada influenciador um código único e rastreável (ex.: `JOAO10` para 10% de desconto). A contagem de usos no painel de cupons mostra exatamente quantas inscrições cada um gerou.
   </Card>
   <Card title="Cortesias para patrocinadores e parceiros" icon="handshake">
     Use cupons de cortesia para cumprir as cortesias previstas nos contratos de patrocínio. Defina a quantidade igual ao número de cortesias acordado no contrato para nunca emitir a mais.
@@ -105,8 +112,8 @@ Para cupons de **valor fixo** e **percentuais**, o total do carrinho após o des
   <Card title="Mês do aniversário" icon="cake-candles">
     Faça uma campanha de aniversário por tempo limitado: compartilhe um código nas redes sociais para atletas que fazem aniversário em determinado mês. Gera fidelidade e dá às pessoas um motivo divertido para marcar amigos.
   </Card>
-  <Card title="Reengajamento" icon="rotate-right">
-    Se alguém adicionou uma inscrição ao carrinho mas não concluiu a compra, um código de curta duração enviado por e-mail pode ser o empurrão que faltava para converter.
+  <Card title="Campanhas de reengajamento" icon="rotate-right">
+    Um código de curta duração pode reacender o interesse de quem ainda não concluiu a inscrição. A divulgação é feita pelos **seus próprios canais** — a plataforma não dispara e-mail marketing.
   </Card>
 </CardGroup>
 

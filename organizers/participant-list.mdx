@@ -4,7 +4,7 @@ sidebarTitle: "Lista de participantes"
 description: "Acesse e exporte a lista completa de participantes na Atletis a qualquer momento para preparar kits, planejar a logística e orientar sua equipe antes do evento."
 ---
 
-Toda inscrição feita pela Atletis passa imediatamente a fazer parte da lista de participantes do seu evento — um registro vivo que cresce conforme as vendas entram e se atualiza no momento em que um pagamento é confirmado. Você pode acessar essa lista no painel do organizador a qualquer momento, filtrar por qualquer campo, exportar para uso offline e compartilhar uma versão pública com participantes que queiram ver quem mais se inscreveu. Esta página explica o que a lista contém, como trabalhar com ela e como colocá-la nas mãos da sua equipe antes do dia da prova.
+Toda inscrição feita pela Atletis passa imediatamente a fazer parte da lista de participantes do seu evento — um registro vivo que cresce conforme as vendas entram e se atualiza no momento em que um pagamento é aprovado. Você pode acessar essa lista no painel do organizador a qualquer momento, filtrar, exportar para uso offline e compartilhar uma versão pública com participantes que queiram ver quem mais se inscreveu. Esta página explica o que a lista contém, como trabalhar com ela e como colocá-la nas mãos da sua equipe antes do dia da prova.
 
 ## O que a lista de participantes inclui
 
@@ -12,70 +12,84 @@ A lista reflete os dados coletados durante a inscrição. Dependendo dos campos 
 
 - **Nome completo** e **CPF** — usados para verificação de identidade no check-in
 - **Categoria** e **lote** — usados para definição de ondas de largada e registro de preços
-- **Status do pagamento** — pago, pendente ou falhou
+- **Status do pagamento** — aprovado, pendente ou cancelado
+- **Status de nomeação** — vinculado ou não vinculado (veja abaixo)
 - **Data da inscrição** — útil para resolver dúvidas sobre o preço do lote
 - **Respostas personalizadas do formulário** — qualquer campo adicional que você incluiu no formulário, como tamanho do kit (tamanho da camiseta), nome da equipe, contato de emergência ou informações médicas
 
 A lista é a fonte única de verdade do seu evento. Como é gerada diretamente a partir das inscrições, elimina a necessidade de conciliar uma planilha com um relatório de pagamentos — está tudo em um só lugar.
 
+### Inscrições não vinculadas
+
+Em compras em grupo — uma assessoria que compra várias inscrições em um pedido único, por exemplo — o comprador paga primeiro e informa os dados de cada atleta depois. Enquanto isso não acontece, a inscrição fica **não vinculada**: está paga, mas ainda não tem atleta nomeado.
+
+Isso afeta diretamente a sua logística: uma inscrição não vinculada não tem nome, tamanho de camiseta nem categoria definitiva para o kit. Acompanhe esse filtro ao longo da campanha e cobre os compradores em grupo bem antes da data de separação dos kits.
+
 ## Como acessar e filtrar a lista
 
-Abra o **painel do organizador**, vá até o seu evento e selecione a seção **Inscritos**. A lista completa aparece com todos os participantes inscritos.
+Abra o **painel do organizador**, vá até o seu evento e selecione a seção **Inscrições**. A lista completa aparece com todos os participantes inscritos.
 
-Use os filtros para refinar a lista por:
+Para refinar a lista, você conta com:
 
-- **Categoria** — mostre apenas os participantes de um grupo competitivo específico
-- **Status do pagamento** — isole os participantes pagos para preparar o check-in, ou destaque os pagamentos pendentes que precisam de acompanhamento
-- **Lote** — veja quem se inscreveu em cada período de preço
-- **Campos personalizados** — filtre por tamanho do kit, equipe ou qualquer outro campo que você coletou
+- **Busca alfanumérica** — localize um participante por nome, e-mail, categoria ou lote
+- **Status do pagamento** — isole os inscritos aprovados para preparar o check-in, ou destaque os pendentes que precisam de acompanhamento
+- **Status de nomeação** — veja quem já foi vinculado e quem ainda falta nomear
+- **Categoria** e **lote** — veja quem se inscreveu em cada grupo e em cada período de preço
 
-Os filtros podem ser combinados. Por exemplo, você pode ver todas as participantes pagas da categoria 5K Feminino que escolheram kit tamanho M — exatamente o recorte de dados que você precisa ao separar kits por categoria e tamanho.
+<Tip>
+  Para recortes mais finos — separar por tamanho de kit ou por equipe, por exemplo — exporte a lista e use os filtros do Excel ou do Google Sheets. A exportação traz as respostas do formulário, então todo o detalhe está lá.
+</Tip>
 
 ## Como exportar a lista de participantes
 
 <Steps>
-  <Step title="Abra a seção Inscritos">
-    No painel do organizador, vá até o seu evento e clique em **Inscritos**. A lista completa carrega com todas as inscrições atuais.
+  <Step title="Abra a seção Inscrições">
+    No painel do organizador, vá até o seu evento e clique em **Inscrições**. A lista completa carrega com todas as inscrições atuais.
   </Step>
-  <Step title="Aplique os filtros necessários">
-    Se quiser exportar apenas uma categoria ou um status de pagamento específico, aplique esses filtros antes de exportar. O arquivo exportado terá apenas as linhas visíveis na visualização filtrada.
+  <Step title="Confira os filtros">
+    Use os filtros para conferir na tela o recorte que você precisa antes de exportar — inscrições aprovadas, por categoria, ou as que ainda não foram vinculadas.
   </Step>
   <Step title="Clique em Exportar">
-    Selecione a opção **Exportar** para baixar a lista. O arquivo inclui todas as colunas visíveis — nome, CPF, categoria, lote, status do pagamento, data da inscrição e as respostas personalizadas do formulário.
+    Selecione a opção **Exportar** para baixar a lista em **Excel**. O arquivo traz todos os dados: dados do inscrito, categoria, lote, status, valores e as respostas personalizadas do formulário.
   </Step>
   <Step title="Use o arquivo na logística">
-    Importe o arquivo exportado na ferramenta preferida da sua equipe para separação de kits, atribuição de números de peito ou material de orientação dos voluntários. Para a coordenação do check-in, compartilhe a lista exportada com os líderes de equipe para que saibam exatamente quem esperar e em qual categoria.
+    Importe o arquivo exportado na ferramenta preferida da sua equipe para separação de kits, atribuição de números de peito ou material de orientação dos voluntários. Para a coordenação do check-in, compartilhe a lista com os líderes de equipe para que saibam exatamente quem esperar e em qual categoria.
   </Step>
 </Steps>
 
+<Warning>
+  O arquivo exportado contém dados pessoais dos participantes. Trate-o conforme a LGPD: compartilhe apenas com quem precisa dele para operar o evento, use somente para as finalidades informadas no formulário de inscrição e apague as cópias quando o evento terminar.
+</Warning>
+
 <Tip>
-  **Dica para organizar kits:** exporte a lista filtrada por categoria e depois ordene por tamanho do kit antes de imprimir a folha de separação. Agrupe todos os kits de cada categoria e, dentro de cada grupo, empilhe por tamanho. Assim a sua mesa de kits espelha a ordem da lista — os voluntários pegam da pilha sem procurar, e o fluxo continua rápido mesmo nos horários de pico.
+  **Dica para organizar kits:** exporte a lista, filtre por categoria na planilha e depois ordene por tamanho do kit antes de imprimir a folha de separação. Agrupe todos os kits de cada categoria e, dentro de cada grupo, empilhe por tamanho. Assim a sua mesa de kits espelha a ordem da lista — os voluntários pegam da pilha sem procurar, e o fluxo continua rápido mesmo nos horários de pico.
 </Tip>
 
 ## Atualizações em tempo real
 
-A lista de participantes se atualiza automaticamente toda vez que uma nova inscrição é concluída e o pagamento é confirmado. Você não precisa atualizar manualmente — o painel reflete o estado atual das inscrições no momento em que você o abre.
+A lista de participantes se atualiza automaticamente toda vez que uma nova inscrição é concluída e o pagamento é aprovado. Você não precisa atualizar manualmente — o painel reflete o estado atual das inscrições no momento em que você o abre.
 
-Isso significa que você pode consultar a lista na manhã do evento e ter uma visão totalmente atualizada de quem está inscrito. Se um participante pagou por boleto bancário e o pagamento foi confirmado durante a noite, ele aparecerá como pago na lista quando sua equipe chegar ao local.
+Isso significa que você pode consultar a lista na manhã do evento e ter uma visão totalmente atualizada de quem está inscrito. Se um participante pagou por boleto bancário e o pagamento foi confirmado durante a noite, ele aparecerá como aprovado na lista quando sua equipe chegar ao local.
 
 <Note>
-  Pagamentos por boleto bancário podem levar até três dias úteis para compensar. Participantes que pagaram por boleto perto da data do evento podem aparecer com status **pendente** no dia do evento. Consulte a lista no painel para ver o status mais recente antes de tomar decisões de entrada no portão.
+  A compensação do boleto leva **até 24 horas, dependendo do banco**, e o boleto vence 72 horas após a emissão. Participantes que pagaram perto da data do evento podem aparecer com status **pendente** no dia. Consulte a lista no painel para ver o status mais recente antes de tomar decisões de entrada no portão.
 </Note>
 
 ## Lista pública de participantes
 
-Quando ativada, a lista pública de participantes permite que os inscritos vejam quem mais se inscreveu no seu evento. Você pode ligar ou desligar esse recurso nas configurações do evento.
+Quando ativada, a lista pública de participantes permite que os inscritos vejam quem mais se inscreveu no seu evento. **Por padrão, ela começa privada** — você liga ou desliga o recurso nas configurações do evento.
 
 Organizadores de corridas e eventos de ciclismo costumam ativar esse recurso como prova social — os atletas gostam de ver nomes conhecidos na lista, e isso pode incentivar inscrições de última hora de pessoas do mesmo clube de corrida ou grupo de pedal.
 
 ## Usando a lista na coordenação do check-in
 
-A lista de participantes e o app de check-in usam a mesma fonte de dados. Qualquer filtro ou anotação que você aplicar no painel fica imediatamente disponível no app de check-in nos dispositivos dos voluntários.
+A lista de participantes e o check-in usam a mesma fonte de dados: o que está no painel é o que os voluntários veem no portão.
 
 Antes do evento, compartilhe a lista exportada com os líderes da equipe de check-in para que eles possam:
 
 - Entender o volume esperado e a distribuição por categoria
 - Identificar participantes com pagamento pendente que podem precisar de tratamento especial no portão
+- Identificar inscrições ainda não vinculadas, que chegam sem atleta nomeado
 - Planejar quantas estações de check-in e voluntários são necessários por categoria ou grupo alfabético
 - Orientar os responsáveis por exceções sobre quais participantes esperar na mesa de resolução
 

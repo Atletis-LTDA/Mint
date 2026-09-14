@@ -4,7 +4,7 @@ sidebarTitle: "Criar evento"
 description: "Aprenda a criar e configurar um evento esportivo na Atletis — da escolha do nome à publicação com uma página de inscrição pronta para compartilhar."
 ---
 
-Criar um evento esportivo na Atletis leva poucos minutos. Em um único painel, em [app.atletis.com.br](https://app.atletis.com.br), você configura cada detalhe do evento — nome, data, local, modalidade, categorias, preços e mais — e publica na hora, com uma página de inscrição exclusiva que os atletas encontram no calendário de eventos da Atletis ou pelo link direto que você compartilhar.
+Criar um evento esportivo na Atletis leva poucos minutos. Em um único painel, em [app.atletis.com.br](https://app.atletis.com.br), você configura cada detalhe do evento — nome, data, local, modalidade, categorias, ingressos e preços — e envia para publicação. Depois de aprovado, o evento ganha uma página de inscrição exclusiva que os atletas encontram no calendário de eventos da Atletis ou pelo link direto que você compartilhar.
 
 Antes de começar a preencher os campos, tenha as informações principais do evento definidas. Entrar no formulário sem essas decisões tomadas costuma gerar correções manuais depois que as inscrições já estão abertas.
 
@@ -17,23 +17,26 @@ Use este checklist para confirmar que o evento está pronto para ser configurado
     - Nome oficial
     - Esporte / modalidade
     - Objetivo e público-alvo
-    - Identidade visual e logo
+    - Identidade visual
   </Card>
+
   <Card title="Data e local" icon="map-pin">
     - Data e horário de início
     - Cidade, estado e endereço do local
     - Ponto de largada/concentração
     - Alvarás ou licenças necessários
   </Card>
-  <Card title="Categorias e preços" icon="list">
-    - Categorias (faixa etária, sexo, distância, nível)
-    - Máximo de participantes por categoria
-    - Valores de inscrição e regras de lote
+
+  <Card title="Categorias e ingressos" icon="list">
+    - Categorias (distância, modalidade, formato)
+    - Ingressos de cada categoria, com preço e quantidade
+    - Datas de início e fim de cada lote
   </Card>
+
   <Card title="Operação" icon="gear">
-    - Patrocinadores e parceiros
     - Regulamento e regras de participação
-    - Canais de comunicação com os atletas
+    - Termo de retirada por terceiros e termo para menores
+    - Dados da conta de recebimento
     - Plano de check-in e entrega de kits
   </Card>
 </CardGroup>
@@ -48,9 +51,8 @@ Use este checklist para confirmar que o evento está pronto para ser configurado
 
 <Steps>
   <Step title="Acesse a página de criação de evento">
-    Vá para [app.atletis.com.br/evento/criar](https://app.atletis.com.br/evento/criar). Se ainda não tiver conta, cadastre-se gratuitamente com sua conta Google, Facebook ou e-mail. Uma única conta permite gerenciar vários eventos no mesmo painel.
+    Vá para [app.atletis.com.br/evento/criar](https://app.atletis.com.br/evento/criar). Se ainda não tiver conta, cadastre-se gratuitamente com seu e-mail. Uma única conta permite gerenciar vários eventos no mesmo painel.
   </Step>
-
   <Step title="Preencha os dados básicos do evento">
     Informe os dados essenciais que aparecem na página pública do evento:
 
@@ -58,67 +60,84 @@ Use este checklist para confirmar que o evento está pronto para ser configurado
     - **Modalidade** — Selecione a modalidade que melhor descreve o evento (corrida, ciclismo, vôlei, CrossFit, artes marciais e muitas outras).
     - **Data, horário de início e de término** — Confirme a data e a programação exatas antes de publicar.
     - **Local** — Informe cidade, estado, nome do local e endereço. Você também pode marcar o local no mapa integrado para os atletas encontrarem com facilidade.
-    - **Formato** — Indique se o evento é presencial, online ou híbrido.
+    - **Formato** — Indique se o evento é presencial, virtual ou híbrido.
 
-    Clique em **Prosseguir** ao concluir esta seção.
+    <Warning>
+      O nome que você informa agora define o **link público do evento** — e esse link **não muda depois**. O nome pode ser corrigido mais tarde, a URL não. Confira a prévia do link antes de avançar.
+    </Warning>
   </Step>
-
   <Step title="Escreva a descrição do evento">
     A descrição costuma ser a primeira coisa que um possível participante lê. Uma boa descrição explica:
 
     - O que é o evento e para quem ele é
-    - O que torna esta edição especial (novo percurso, nova categoria, premiação maior etc.)
+    - Cronograma do dia (retirada de kit, largadas, premiação)
+    - Informações de hidratação, kit e contato
     - Requisitos importantes que os participantes precisam saber desde o início
 
     <Tip>
-      Mire em 2 a 4 parágrafos curtos. Atletas leem rápido — comece pelo que mais interessa. Evite copiar o texto denso do regulamento para a descrição; disponibilize o regulamento completo em um link separado.
+      Mire em 2 a 4 parágrafos curtos. Atletas leem rápido — comece pelo que mais interessa. Evite copiar o texto denso do regulamento para a descrição; disponibilize o regulamento completo como PDF anexo.
     </Tip>
   </Step>
-
-  <Step title="Envie a imagem de capa e o logo">
+  <Step title="Envie a imagem de capa e os documentos">
     A imagem de capa aparece no topo da página do evento e na listagem do calendário de eventos da Atletis. Use uma imagem de alta qualidade que represente o evento — uma foto de ação de uma edição anterior, um panorama do percurso ou uma arte profissional funcionam bem.
 
+    - **Banner** — 1000x1000 px (quadrado), JPEG ou PNG, até 10 MB.
+    - **Regulamento** — PDF de até 10 MB.
+    - **Termo de retirada por terceiros** — PDF de até 5 MB.
+    - **Termo para menores** — PDF de até 5 MB.
+
     <Tip>
-      Use uma imagem em formato largo (orientação paisagem) para a capa. Evite imagens com muito texto pequeno, porque ela também aparece como miniatura nos resultados de busca. Envie o logo do evento separadamente para que apareça ao lado do nome.
+      Evite imagens com muito texto pequeno, porque o banner também aparece como miniatura na listagem do calendário.
     </Tip>
   </Step>
-
   <Step title="Adicione as informações de contato">
     Informe o nome e o número de WhatsApp do organizador ou do contato de suporte. É isso que os atletas veem quando precisam de ajuda antes ou depois de se inscrever. Garanta que o número seja monitorado durante o período de inscrições.
   </Step>
+  <Step title="Configure categorias e ingressos">
+    Depois dos dados básicos, você monta a estrutura de inscrição do evento. Na Atletis são dois níveis:
 
-  <Step title="Configure categorias e preços">
-    Depois dos dados básicos, você monta a estrutura de inscrição do evento:
+    - **Categoria** — é o agrupamento, a família. Ela organiza a vitrine (5 km, 10 km, Dupla, Kids) e **não carrega preço nem vaga**.
+    - **Ingresso** — é onde mora toda a configuração: preço, quantidade de vagas, período de venda, limite de compra por pessoa, bloqueio por idade, visibilidade e as perguntas do formulário.
 
-    - **Crie categorias** — Adicione categorias por faixa etária, sexo, distância, nível de experiência ou qualquer combinação. Cada categoria pode ter descrição, preço e limite de participantes próprios. Veja [Configurar categorias de inscrição](/organizers/categories) para um passo a passo detalhado.
-    - **Defina as regras de lote** — Configure aumentos automáticos de preço disparados por data ou por número de inscrições vendidas. O preço promocional de abertura incentiva os atletas a se inscreverem mais cedo.
-    - **Escolha as formas de pagamento** — A Atletis aceita Pix, cartão de crédito (com parcelamento) e boleto bancário. Você escolhe se a taxa de serviço é absorvida pelo organizador ou repassada ao participante.
+    Um **lote** é simplesmente um ingresso com janela de data e/ou quantidade — por exemplo, "5 km – Lote 1" e "5 km – Lote 2" dentro da categoria 5 km. A virada acontece automaticamente por data ou por quantidade.
+
+    Veja [Configurar categorias de inscrição](/organizers/categories) e [Configurar lotes](/organizers/pricing-tiers) para o passo a passo detalhado.
+
+    - **Escolha as formas de pagamento** — A Atletis aceita Pix, cartão de crédito (em até 12x, com o custo do parcelamento por conta do comprador) e boleto bancário. Você escolhe se a taxa de serviço é absorvida pelo organizador ou repassada ao participante.
 
     <Note>
-      Inscrições cortesia e cupons de desconto estão disponíveis em eventos pagos. Os cupons podem ser direcionados a grupos específicos, como patrocinadores, assessorias esportivas ou influenciadores.
+      O boleto fica indisponível nas **últimas 72 horas** antes do evento — nesse período o atleta paga só por Pix ou cartão.
+    </Note>
+
+    <Note>
+      Inscrições cortesia e cupons de desconto estão disponíveis em eventos pagos. Os cupons podem ser direcionados a grupos específicos, como patrocinadores, assessorias esportivas ou parceiros.
     </Note>
   </Step>
-
   <Step title="Defina a visibilidade: público ou privado">
     Escolha se o evento é **público** ou **privado**:
 
     - **Público** — O evento é listado no calendário de eventos da Atletis em [atletis.com.br/eventos](https://www.atletis.com.br/eventos) e pode ser encontrado por qualquer atleta navegando na plataforma.
-    - **Privado** — O evento não aparece no calendário. Só quem tem o link direto acessa a página de inscrição. Útil para eventos corporativos internos, competições de clubes ou provas fechadas para convidados.
+    - **Privado** — O evento não aparece na listagem da Atletis. Só quem tem o link direto acessa a página de inscrição. Útil para eventos corporativos internos, competições de clubes ou provas fechadas para convidados.
   </Step>
-
   <Step title="Revise e publique">
+    Para publicar, o evento precisa ter, no mínimo:
+
+    - Dados básicos preenchidos
+    - Pelo menos **um ingresso** cadastrado
+    - **Conta de recebimento** informada
+
     Antes de publicar, revise a página do evento como se fosse um atleta vendo pela primeira vez:
 
     - Nome, data e local do evento estão claramente visíveis?
-    - As categorias e os preços são fáceis de entender?
+    - As categorias e os ingressos são fáceis de entender?
     - Há informação suficiente para decidir pela inscrição?
     - As informações de contato estão corretas?
 
-    Quando tudo estiver certo, clique em **Publicar evento** na aba Resumo. O evento entra no ar imediatamente. Se for público, aparece no calendário da Atletis na hora. Você recebe uma notificação confirmando que a página está ativa.
+    Quando tudo estiver certo, publique o evento. Ele entra no estado **Aguardando aprovação**: a Atletis confere se categorias, ingressos, lotes, formulário e dados de recebimento estão corretos antes de o evento ir ao ar. É uma conferência da configuração do painel, feita para proteger você de um erro que só apareceria depois da primeira venda. Assim que a conferência termina, o evento fica visível — e, se for público, passa a aparecer no calendário da Atletis.
 
-    <Note>
-      Depois de publicar, você ainda pode editar os dados do evento, adicionar categorias, atualizar descrições e ajustar as regras de lote a qualquer momento pelo painel do organizador.
-    </Note>
+    <Warning>
+      Depois de publicar, alguns pontos travam: a **data do evento** fica fixa, e a **escolha entre absorver ou repassar a taxa** e a **conta de recebimento** ficam somente leitura assim que as vendas começam. Os demais campos continuam editáveis.
+    </Warning>
   </Step>
 </Steps>
 
@@ -130,12 +149,16 @@ Com o evento no ar, a Atletis gera uma URL compartilhável — o link direto exc
 
 <CardGroup cols={3}>
   <Card title="Personalize a página do evento" icon="palette" href="/organizers/event-page">
-    Adicione patrocinadores, fotos, programação e mapa do percurso para transformar visitantes em inscritos.
+    Capriche na descrição, no banner e nos PDFs anexados para transformar visitantes em inscritos.
   </Card>
+
   <Card title="Configure as categorias" icon="users" href="/organizers/categories">
-    Configure faixas etárias, distâncias e limites de participantes para cada perfil de atleta.
+    Organize a vitrine por distância, modalidade ou formato e cadastre os ingressos de cada uma.
   </Card>
+
   <Card title="Monte o formulário de inscrição" icon="clipboard-list" href="/organizers/registration-form">
-    Colete exatamente os dados de que você precisa — tamanho de kit, nome da equipe, informações médicas e mais.
+    Colete exatamente os dados de que você precisa — tamanho de kit, nome da equipe, pace e mais.
   </Card>
 </CardGroup>
+
+Precisa de ajuda? Fale com a Atletis em [contato@atletis.com.br](mailto:contato@atletis.com.br) ou pelo WhatsApp +55 48 99145-5196.
