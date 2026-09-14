@@ -109,5 +109,12 @@
     "socials": {
       "instagram": "https://www.instagram.com/atletisoficial"
     }
-  }
+  },
+  "redirects": [
+    {
+      "source": "/quickstart",
+      "destination": "/inicio-rapido",
+      "permanent": true
+    }
+  ]
 }
