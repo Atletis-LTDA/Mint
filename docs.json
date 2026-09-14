@@ -30,6 +30,12 @@
   "navigation": {
     "tabs": [
       {
+        "tab": "Início",
+        "pages": [
+          "index"
+        ]
+      },
+      {
         "tab": "Para organizadores",
         "groups": [
           {
