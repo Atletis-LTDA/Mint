@@ -47,7 +47,8 @@
               "organizers/event-page",
               "organizers/categories",
               "organizers/registration-form"
-            ]
+            ],
+            "public": true
           },
           {
             "group": "Inscrições e vendas",
