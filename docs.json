@@ -42,44 +42,44 @@
           {
             "group": "Primeiros passos",
             "pages": [
-              "introduction",
+              "introducao",
               "inicio-rapido",
-              "pricing"
+              "precos"
             ]
           },
           {
             "group": "Configuração do evento",
             "pages": [
-              "organizers/create-event",
-              "organizers/event-page",
-              "organizers/categories",
-              "organizers/registration-form"
+              "organizadores/criar-evento",
+              "organizadores/pagina-do-evento",
+              "organizadores/categorias",
+              "organizadores/formulario-de-inscricao"
             ],
             "public": true
           },
           {
             "group": "Inscrições e vendas",
             "pages": [
-              "organizers/pricing-tiers",
-              "organizers/discount-coupons",
-              "organizers/payment-methods",
-              "organizers/managing-registrations"
+              "organizadores/lotes",
+              "organizadores/cupons-de-desconto",
+              "organizadores/pagamentos",
+              "organizadores/gestao-de-inscricoes"
             ]
           },
           {
             "group": "Dia do evento",
             "pages": [
-              "organizers/check-in-app",
-              "organizers/participant-list",
-              "organizers/reports"
+              "organizadores/check-in",
+              "organizadores/lista-de-participantes",
+              "organizadores/relatorios"
             ]
           },
           {
             "group": "Recursos avançados",
             "pages": [
-              "organizers/white-label",
-              "organizers/sports-agency",
-              "organizers/faq-organizers"
+              "organizadores/white-label",
+              "organizadores/assessorias",
+              "organizadores/perguntas-frequentes"
             ]
           }
         ]
@@ -90,16 +90,16 @@
           {
             "group": "Primeiros passos",
             "pages": [
-              "athletes/finding-events",
-              "athletes/registration-process",
-              "athletes/payment-options"
+              "atletas/encontrar-eventos",
+              "atletas/como-se-inscrever",
+              "atletas/formas-de-pagamento"
             ]
           },
           {
             "group": "Minha conta",
             "pages": [
-              "athletes/my-tickets",
-              "athletes/faq-athletes"
+              "atletas/minhas-inscricoes",
+              "atletas/perguntas-frequentes"
             ]
           }
         ]
@@ -115,6 +115,111 @@
     {
       "source": "/quickstart",
       "destination": "/inicio-rapido",
+      "permanent": true
+    },
+    {
+      "source": "/introduction",
+      "destination": "/introducao",
+      "permanent": true
+    },
+    {
+      "source": "/pricing",
+      "destination": "/precos",
+      "permanent": true
+    },
+    {
+      "source": "/organizers/create-event",
+      "destination": "/organizadores/criar-evento",
+      "permanent": true
+    },
+    {
+      "source": "/organizers/event-page",
+      "destination": "/organizadores/pagina-do-evento",
+      "permanent": true
+    },
+    {
+      "source": "/organizers/categories",
+      "destination": "/organizadores/categorias",
+      "permanent": true
+    },
+    {
+      "source": "/organizers/registration-form",
+      "destination": "/organizadores/formulario-de-inscricao",
+      "permanent": true
+    },
+    {
+      "source": "/organizers/pricing-tiers",
+      "destination": "/organizadores/lotes",
+      "permanent": true
+    },
+    {
+      "source": "/organizers/discount-coupons",
+      "destination": "/organizadores/cupons-de-desconto",
+      "permanent": true
+    },
+    {
+      "source": "/organizers/payment-methods",
+      "destination": "/organizadores/pagamentos",
+      "permanent": true
+    },
+    {
+      "source": "/organizers/managing-registrations",
+      "destination": "/organizadores/gestao-de-inscricoes",
+      "permanent": true
+    },
+    {
+      "source": "/organizers/check-in-app",
+      "destination": "/organizadores/check-in",
+      "permanent": true
+    },
+    {
+      "source": "/organizers/participant-list",
+      "destination": "/organizadores/lista-de-participantes",
+      "permanent": true
+    },
+    {
+      "source": "/organizers/reports",
+      "destination": "/organizadores/relatorios",
+      "permanent": true
+    },
+    {
+      "source": "/organizers/white-label",
+      "destination": "/organizadores/white-label",
+      "permanent": true
+    },
+    {
+      "source": "/organizers/sports-agency",
+      "destination": "/organizadores/assessorias",
+      "permanent": true
+    },
+    {
+      "source": "/organizers/faq-organizers",
+      "destination": "/organizadores/perguntas-frequentes",
+      "permanent": true
+    },
+    {
+      "source": "/athletes/finding-events",
+      "destination": "/atletas/encontrar-eventos",
+      "permanent": true
+    },
+    {
+      "source": "/athletes/registration-process",
+      "destination": "/atletas/como-se-inscrever",
+      "permanent": true
+    },
+    {
+      "source": "/athletes/payment-options",
+      "destination": "/atletas/formas-de-pagamento",
+      "permanent": true
+    },
+    {
+      "source": "/athletes/my-tickets",
+      "destination": "/atletas/minhas-inscricoes",
+      "permanent": true
+    },
+    {
+      "source": "/athletes/faq-athletes",
+      "destination": "/atletas/perguntas-frequentes",
       "permanent": true
     }
   ]
