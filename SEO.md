@@ -66,10 +66,25 @@ eles é lida como *thin content* por mais completa que pareça na tela.
 **Na prática:** toda página precisa de prosa própria, e um bloco que existe só
 via JavaScript pede um equivalente em texto ao lado dele.
 
+## Arquivo interno não pode virar rota
+
+O Mintlify publica **todo `.md` e `.mdx` do repositório**, esteja ou não na
+navegação. Ele ignora sozinho apenas `README.md`, `LICENSE.md`, `CHANGELOG.md`
+e `CONTRIBUTING.md` — nada além disso.
+
+Então instrução para o time, ferramenta e material bruto precisam entrar no
+`.mintignore`, ou viram página pública e indexável. Foi o que quase aconteceu
+com este próprio arquivo: sem a linha no `.mintignore`, `SEO.md` vira
+`ajuda.atletis.com.br/SEO`.
+
+O `bin/seo-check.py` reprova qualquer arquivo que esteja fora da navegação e
+fora do `.mintignore`.
+
 ## Ao criar uma página
 
 1. Title dentro do limite, sem a palavra "Atletis"
 2. Description entre 100 e 130
 3. `keywords` no frontmatter com os termos de busca reais
 4. Prosa suficiente para a página se sustentar sem os componentes
-5. `python3 bin/seo-check.py` antes de abrir o PR
+5. Se for material interno e não documentação, entre no `.mintignore`
+6. `python3 bin/seo-check.py` antes de abrir o PR

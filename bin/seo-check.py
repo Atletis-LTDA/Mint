@@ -4,7 +4,7 @@
 Uso:  python3 bin/seo-check.py          # confere e sai 1 se houver falha
       python3 bin/seo-check.py --list   # mostra todas as paginas, mesmo as ok
 """
-import json, os, re, sys, glob
+import fnmatch, json, os, re, sys, glob
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(ROOT)
@@ -14,6 +14,44 @@ DESC_MIN, DESC_MAX = 100, 130      # da meta description
 
 def site_name():
     return json.load(open('docs.json', encoding='utf-8')).get('name', '')
+
+# o Mintlify ja ignora estes sozinho
+AUTO_IGNORED = {'README.md', 'LICENSE.md', 'CHANGELOG.md', 'CONTRIBUTING.md'}
+
+def mintignore_rules():
+    if not os.path.exists('.mintignore'):
+        return []
+    out = []
+    for line in open('.mintignore', encoding='utf-8'):
+        line = line.split('#')[0].strip()
+        if line:
+            out.append(line)
+    return out
+
+def ignored(path, rules):
+    if os.path.basename(path) in AUTO_IGNORED:
+        return True
+    for r in rules:
+        if r.endswith('/'):
+            if path.startswith(r) or f'/{r}' in f'/{path}':
+                return True
+        elif fnmatch.fnmatch(path, r) or fnmatch.fnmatch(os.path.basename(path), r):
+            return True
+    return False
+
+def nav_routes():
+    d = json.load(open('docs.json', encoding='utf-8'))
+    routes = []
+    def walk(n):
+        for x in n.get('pages', []):
+            walk(x) if isinstance(x, dict) else routes.append(x)
+        for g in n.get('groups', []):
+            walk(g)
+    nav = d.get('navigation', {})
+    for lang in nav.get('languages', [{'tabs': nav.get('tabs', [])}]):
+        for tab in lang.get('tabs', []):
+            walk(tab)
+    return set(routes)
 
 def frontmatter(path):
     s = open(path, encoding='utf-8').read()
@@ -62,6 +100,16 @@ def main():
             fails.append((path, '; '.join(problems)))
         elif show_all:
             print(f'ok    {path}')
+
+    # arquivo fora da navegacao e fora do .mintignore vira rota publica
+    rules, routes = mintignore_rules(), nav_routes()
+    for f in sorted(glob.glob('**/*.md', recursive=True) + glob.glob('**/*.mdx', recursive=True)):
+        if f.startswith('.') or ignored(f, rules):
+            continue
+        rota = f.rsplit('.', 1)[0]
+        if rota not in routes:
+            fails.append((f, f'vira a rota publica /{rota} sem estar na navegacao; '
+                             f'adicione ao .mintignore ou ao docs.json'))
 
     for path, why in warns:
         print(f'aviso {path}: {why}')

@@ -2,6 +2,12 @@
 # .git, .github, .claude, .agents, .idea, node_modules,
 # README.md, LICENSE.md, CHANGELOG.md, CONTRIBUTING.md
 
+# Instrucoes e ferramenta internas, nao documentacao.
+# Sem estas linhas viram rota publica: /AGENTS e /SEO.
+AGENTS.md
+SEO.md
+bin/
+
 # Draft content
 drafts/
 *.draft.mdx
