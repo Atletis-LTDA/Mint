@@ -31,3 +31,15 @@
 
 {/* Define what should and shouldn't be documented */}
 {/* Example: Don't document internal admin features */}
+
+## SEO
+
+As regras de title, description e conteúdo estão em [`SEO.md`](SEO.md), medidas
+contra o HTML que o Mintlify realmente entrega.
+
+O ponto que mais escapa: **o Mintlify acrescenta `" - Atletis"` ao title de toda
+página**, então o limite é 50 caracteres no frontmatter, não 60, e a palavra
+"Atletis" não deve aparecer no title.
+
+Rode `python3 bin/seo-check.py` antes de abrir PR. Ele sai 1 se alguma regra
+dura falhar.

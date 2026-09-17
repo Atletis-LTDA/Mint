@@ -7,6 +7,13 @@
     "dark": "https://media.brand.dev/a5f7f5cb-0ca5-46c5-acc4-7f287a2d7841.svg"
   },
   "favicon": "https://media.brand.dev/208293d9-c0a0-475c-8d82-0676388ce804.png",
+  "seo": {
+    "metatags": {
+      "og:locale": "pt_BR",
+      "og:site_name": "Atletis",
+      "twitter:site": "@atletisoficial"
+    }
+  },
   "colors": {
     "primary": "#ff6f00",
     "light": "#ffffff",
@@ -113,7 +120,10 @@
   },
   "footer": {
     "socials": {
-      "instagram": "https://www.instagram.com/atletisoficial"
+      "instagram": "https://www.instagram.com/atletisoficial/",
+      "facebook": "https://www.facebook.com/atletisoficial",
+      "youtube": "https://www.youtube.com/@atletisoficial",
+      "x": "https://x.com/atletisoficial"
     }
   },
   "redirects": [
