@@ -41,5 +41,10 @@ O ponto que mais escapa: **o Mintlify acrescenta `" - Atletis"` ao title de toda
 página**, então o limite é 50 caracteres no frontmatter, não 60, e a palavra
 "Atletis" não deve aparecer no title.
 
+**Antes de mudar estrutura — URL, nome de arquivo, pasta, hierarquia —
+pergunte ao Gustavo.** Mudar URL descarta o ranking que ela acumulou, e a perda
+vem de fora. Depois de mudar: redirect para cada URL que sai, `bin/seo-inventario.py`,
+`bin/seo-planilha.py` e conferir o `/sitemap.xml`.
+
 Rode `python3 bin/seo-check.py` antes de abrir PR. Ele sai 1 se alguma regra
-dura falhar.
+dura falhar, incluindo URL que saiu da navegação sem redirect.

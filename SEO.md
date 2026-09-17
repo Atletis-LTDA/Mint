@@ -80,6 +80,37 @@ com este próprio arquivo: sem a linha no `.mintignore`, `SEO.md` vira
 O `bin/seo-check.py` reprova qualquer arquivo que esteja fora da navegação e
 fora do `.mintignore`.
 
+## Mudança de estrutura: pergunte antes
+
+Mudar URL, renomear página, mover de módulo ou reorganizar a hierarquia **descarta
+o ranking que aquela URL levou meses acumulando**. Não é refactor de código, onde
+o pior caso é reverter — a perda é de fora, e demora para voltar.
+
+**Antes de mexer em estrutura, pergunte ao Gustavo.** Vale para renomear arquivo,
+mudar pasta, trocar página de módulo, dividir ou juntar páginas. Sempre diga quais
+URLs mudam e o que cada uma vale hoje.
+
+**Depois de mexer, em toda mudança estrutural ou ciclo longo de trabalho:**
+
+1. **Redirect para cada URL que sai.** No `redirects` do `docs.json`, com
+   `permanent: true`. Sem isso o Google trata como página morta
+2. **Atualize o inventário** — `python3 bin/seo-inventario.py`, e commite o
+   `seo/inventario.csv`. É a memória das URLs que já existiram
+3. **Regenere a planilha** — `python3 bin/seo-planilha.py`, e mande para quem
+   cuida de SEO
+4. **Confira o sitemap** em `/sitemap.xml` depois que a mudança subir, e o índice
+   de páginas em `/llms.txt`
+
+O `bin/seo-check.py` **reprova URL que saiu da navegação sem redirect**, comparando
+com o inventário. É a rede de segurança, não o substituto da pergunta: ele pega a
+URL perdida, não a decisão de mudar.
+
+## O inventário de URLs
+
+`seo/inventario.csv` guarda toda rota que já existiu, com `estado` de `ativa` ou
+`aposentada`. Uma rota nunca é apagada dali — vira aposentada, e o redirect dela
+fica sendo cobrado para sempre.
+
 ## Ao criar uma página
 
 1. Title dentro do limite, sem a palavra "Atletis"
@@ -87,4 +118,5 @@ fora do `.mintignore`.
 3. `keywords` no frontmatter com os termos de busca reais
 4. Prosa suficiente para a página se sustentar sem os componentes
 5. Se for material interno e não documentação, entre no `.mintignore`
-6. `python3 bin/seo-check.py` antes de abrir o PR
+6. `python3 bin/seo-inventario.py` para registrar a rota nova
+7. `python3 bin/seo-check.py` antes de abrir o PR

@@ -4,7 +4,7 @@
 Uso:  python3 bin/seo-check.py          # confere e sai 1 se houver falha
       python3 bin/seo-check.py --list   # mostra todas as paginas, mesmo as ok
 """
-import fnmatch, json, os, re, sys, glob
+import csv, fnmatch, json, os, re, sys, glob
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(ROOT)
@@ -53,6 +53,17 @@ def nav_routes():
             walk(tab)
     return set(routes)
 
+def inventario():
+    """Rotas que ja existiram, de seo/inventario.csv."""
+    if not os.path.exists('seo/inventario.csv'):
+        return None
+    with open('seo/inventario.csv', encoding='utf-8') as f:
+        return {r['rota'] for r in csv.DictReader(f)}
+
+def redirects():
+    d = json.load(open('docs.json', encoding='utf-8'))
+    return {r['source'] for r in d.get('redirects', [])}
+
 def frontmatter(path):
     s = open(path, encoding='utf-8').read()
     m = re.match(r'^---\n(.*?)\n---\n', s, re.S)
@@ -100,6 +111,23 @@ def main():
             fails.append((path, '; '.join(problems)))
         elif show_all:
             print(f'ok    {path}')
+
+    # URL que sumiu da navegacao precisa de redirect, senao perde o SEO dela
+    inv = inventario()
+    if inv is None:
+        warns.append(('seo/inventario.csv', 'nao existe; rode bin/seo-inventario.py'))
+    else:
+        atuais = {'/' + r if r != 'index' else '/' for r in nav_routes()}
+        red = redirects()
+        for rota in sorted(inv - atuais):
+            if rota not in red:
+                fails.append((rota, 'estava no inventario e saiu da navegacao sem redirect '
+                                    'no docs.json; a URL perde o ranking que tinha'))
+        novas = atuais - inv
+        if novas:
+            warns.append(('seo/inventario.csv',
+                          f'{len(novas)} rota(s) nova(s) fora do inventario '
+                          f'({", ".join(sorted(novas)[:3])}...); rode bin/seo-inventario.py'))
 
     # arquivo fora da navegacao e fora do .mintignore vira rota publica
     rules, routes = mintignore_rules(), nav_routes()
