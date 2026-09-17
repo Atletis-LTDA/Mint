@@ -28,78 +28,83 @@
     }
   },
   "navigation": {
-    "tabs": [
+    "languages": [
       {
-        "tab": "Início",
-        "pages": [
-          "index",
-          "quem-organiza"
-        ]
-      },
-      {
-        "tab": "Para organizadores",
-        "groups": [
+        "language": "pt-BR",
+        "tabs": [
           {
-            "group": "Primeiros passos",
+            "tab": "Início",
             "pages": [
-              "introducao",
-              "inicio-rapido",
-              "precos"
+              "index",
+              "quem-organiza"
             ]
           },
           {
-            "group": "Configuração do evento",
-            "pages": [
-              "organizadores/criar-evento",
-              "organizadores/pagina-do-evento",
-              "organizadores/categorias",
-              "organizadores/formulario-de-inscricao"
-            ],
-            "public": true
-          },
-          {
-            "group": "Inscrições e vendas",
-            "pages": [
-              "organizadores/lotes",
-              "organizadores/cupons-de-desconto",
-              "organizadores/pagamentos",
-              "organizadores/gestao-de-inscricoes"
+            "tab": "Para organizadores",
+            "groups": [
+              {
+                "group": "Primeiros passos",
+                "pages": [
+                  "introducao",
+                  "inicio-rapido",
+                  "precos"
+                ]
+              },
+              {
+                "group": "Configuração do evento",
+                "pages": [
+                  "organizadores/criar-evento",
+                  "organizadores/pagina-do-evento",
+                  "organizadores/categorias",
+                  "organizadores/formulario-de-inscricao"
+                ],
+                "public": true
+              },
+              {
+                "group": "Inscrições e vendas",
+                "pages": [
+                  "organizadores/lotes",
+                  "organizadores/cupons-de-desconto",
+                  "organizadores/pagamentos",
+                  "organizadores/gestao-de-inscricoes"
+                ]
+              },
+              {
+                "group": "Dia do evento",
+                "pages": [
+                  "organizadores/check-in",
+                  "organizadores/lista-de-participantes",
+                  "organizadores/relatorios"
+                ]
+              },
+              {
+                "group": "Recursos avançados",
+                "pages": [
+                  "organizadores/white-label",
+                  "organizadores/assessorias",
+                  "organizadores/perguntas-frequentes"
+                ]
+              }
             ]
           },
           {
-            "group": "Dia do evento",
-            "pages": [
-              "organizadores/check-in",
-              "organizadores/lista-de-participantes",
-              "organizadores/relatorios"
-            ]
-          },
-          {
-            "group": "Recursos avançados",
-            "pages": [
-              "organizadores/white-label",
-              "organizadores/assessorias",
-              "organizadores/perguntas-frequentes"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Para atletas",
-        "groups": [
-          {
-            "group": "Primeiros passos",
-            "pages": [
-              "atletas/encontrar-eventos",
-              "atletas/como-se-inscrever",
-              "atletas/formas-de-pagamento"
-            ]
-          },
-          {
-            "group": "Minha conta",
-            "pages": [
-              "atletas/minhas-inscricoes",
-              "atletas/perguntas-frequentes"
+            "tab": "Para atletas",
+            "groups": [
+              {
+                "group": "Primeiros passos",
+                "pages": [
+                  "atletas/encontrar-eventos",
+                  "atletas/como-se-inscrever",
+                  "atletas/formas-de-pagamento"
+                ]
+              },
+              {
+                "group": "Minha conta",
+                "pages": [
+                  "atletas/minhas-inscricoes",
+                  "atletas/perguntas-frequentes"
+                ]
+              }
             ]
           }
         ]
